@@ -5,4 +5,10 @@
     <error column="2" line="11" message="S1023: redundant `return` statement" severity="error" source="gosimple">
     </error>
   </file>
+  <file name="code2\util\reflect.go">
+    <error column="6" line="7" message="`isEmptyValue` is unused" severity="error" source="deadcode">
+    </error>
+    <error column="7" line="23" message="type `zeroAble` is unused" severity="error" source="unused">
+    </error>
+  </file>
 </checkstyle>
