@@ -1,0 +1,7 @@
+mode: set
+sonar_try/code1/code1.go:5.27,6.16 1 1
+sonar_try/code1/code1.go:10.2,11.8 2 1
+sonar_try/code1/code1.go:6.16,9.3 2 1
+sonar_try/code1/code1.go:14.29,15.16 1 1
+sonar_try/code1/code1.go:19.2,19.29 1 0
+sonar_try/code1/code1.go:15.16,18.3 2 1

@@ -1,0 +1,3662 @@
+
+#
+# internal/goarch
+#
+
+mkdir -p $WORK\b006\
+
+#
+# internal/unsafeheader
+#
+
+mkdir -p $WORK\b007\
+
+#
+# internal/abi
+#
+
+mkdir -p $WORK\b010\
+
+#
+# internal/cpu
+#
+
+mkdir -p $WORK\b012\
+
+#
+# internal/bytealg
+#
+
+mkdir -p $WORK\b011\
+
+#
+# internal/goexperiment
+#
+
+mkdir -p $WORK\b013\
+
+#
+# internal/goos
+#
+
+mkdir -p $WORK\b014\
+
+#
+# runtime/internal/atomic
+#
+
+mkdir -p $WORK\b015\
+
+#
+# runtime/internal/math
+#
+
+mkdir -p $WORK\b016\
+
+#
+# runtime/internal/sys
+#
+
+mkdir -p $WORK\b017\
+
+#
+# runtime
+#
+
+mkdir -p $WORK\b009\
+
+#
+# internal/reflectlite
+#
+
+mkdir -p $WORK\b005\
+
+#
+# errors
+#
+
+mkdir -p $WORK\b004\
+
+#
+# internal/race
+#
+
+mkdir -p $WORK\b020\
+
+#
+# sync/atomic
+#
+
+mkdir -p $WORK\b021\
+
+#
+# sync
+#
+
+mkdir -p $WORK\b019\
+
+#
+# io
+#
+
+mkdir -p $WORK\b018\
+
+#
+# unicode
+#
+
+mkdir -p $WORK\b022\
+
+#
+# unicode/utf8
+#
+
+mkdir -p $WORK\b023\
+
+#
+# bytes
+#
+
+mkdir -p $WORK\b003\
+
+#
+# internal/itoa
+#
+
+mkdir -p $WORK\b028\
+
+#
+# math/bits
+#
+
+mkdir -p $WORK\b030\
+
+#
+# math
+#
+
+mkdir -p $WORK\b029\
+
+#
+# strconv
+#
+
+mkdir -p $WORK\b031\
+
+#
+# reflect
+#
+
+mkdir -p $WORK\b027\
+
+#
+# sort
+#
+
+mkdir -p $WORK\b032\
+
+#
+# internal/fmtsort
+#
+
+mkdir -p $WORK\b026\
+
+#
+# internal/oserror
+#
+
+mkdir -p $WORK\b034\
+
+#
+# internal/syscall/windows/sysdll
+#
+
+mkdir -p $WORK\b037\
+
+#
+# unicode/utf16
+#
+
+mkdir -p $WORK\b039\
+
+#
+# syscall
+#
+
+mkdir -p $WORK\b038\
+
+#
+# internal/syscall/windows
+#
+
+mkdir -p $WORK\b036\
+
+#
+# internal/syscall/windows/registry
+#
+
+mkdir -p $WORK\b041\
+
+#
+# time
+#
+
+mkdir -p $WORK\b040\
+
+#
+# internal/poll
+#
+
+mkdir -p $WORK\b035\
+
+#
+# internal/syscall/execenv
+#
+
+mkdir -p $WORK\b042\
+
+#
+# internal/testlog
+#
+
+mkdir -p $WORK\b043\
+
+#
+# path
+#
+
+mkdir -p $WORK\b045\
+
+#
+# io/fs
+#
+
+mkdir -p $WORK\b044\
+
+#
+# os
+#
+
+mkdir -p $WORK\b033\
+
+#
+# fmt
+#
+
+mkdir -p $WORK\b025\
+
+#
+# strings
+#
+
+mkdir -p $WORK\b046\
+
+#
+# flag
+#
+
+mkdir -p $WORK\b024\
+
+#
+# internal/sysinfo
+#
+
+mkdir -p $WORK\b047\
+
+#
+# math/rand
+#
+
+mkdir -p $WORK\b048\
+
+#
+# path/filepath
+#
+
+mkdir -p $WORK\b049\
+
+#
+# runtime/debug
+#
+
+mkdir -p $WORK\b050\
+
+#
+# context
+#
+
+mkdir -p $WORK\b052\
+
+#
+# runtime/trace
+#
+
+mkdir -p $WORK\b051\
+
+#
+# testing
+#
+
+mkdir -p $WORK\b002\
+
+#
+# sonar_try/code1
+#
+
+mkdir -p $WORK\b001\
+cat >$WORK\b006\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/goarch",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\goarch",
+	"ImportPath": "internal/goarch",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_amd64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_amd64.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\goarch\\gengoarch.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_386.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_arm.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_arm64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_mips.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_mips64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_mips64le.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_mipsle.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_ppc64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_ppc64le.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_riscv64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_s390x.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\goarch_wasm.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_386.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_arm.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_arm64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_arm64be.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_armbe.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_loong64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mips.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mips64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mips64le.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mips64p32.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mips64p32le.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_mipsle.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_ppc.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_ppc64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_ppc64le.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_riscv.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_riscv64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_s390.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_s390x.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_sparc.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_sparc64.go",
+		"D:\\GoRoot\\src\\internal\\goarch\\zgoarch_wasm.go"
+	],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b006\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\goarch
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b006\\vet.cfg"
+cat >$WORK\b007\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/unsafeheader",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\unsafeheader",
+	"ImportPath": "internal/unsafeheader",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\unsafeheader\\unsafeheader.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {},
+	"Standard": {
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b007\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\unsafeheader
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b007\\vet.cfg"
+cat >$WORK\b010\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/abi",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\abi",
+	"ImportPath": "internal/abi",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\abi\\abi.go",
+		"D:\\GoRoot\\src\\internal\\abi\\abi_amd64.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\internal\\abi\\abi_test.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\abi\\abi_arm64.go",
+		"D:\\GoRoot\\src\\internal\\abi\\abi_generic.go",
+		"D:\\GoRoot\\src\\internal\\abi\\abi_ppc64x.go"
+	],
+	"ImportMap": {
+		"internal/goarch": "internal/goarch",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a"
+	},
+	"Standard": {
+		"internal/goarch": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b010\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\abi
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b010\\vet.cfg"
+cat >$WORK\b012\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/cpu",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\cpu",
+	"ImportPath": "internal/cpu",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_x86.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu.s",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_x86.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_android.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_darwin.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_freebsd.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_hwcap.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_linux.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64_other.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_mips.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_mips64x.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_mipsle.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_no_name.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_ppc64x.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_ppc64x_aix.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_ppc64x_linux.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_riscv64.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_s390x.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_s390x_test.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_wasm.go",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_arm64.s",
+		"D:\\GoRoot\\src\\internal\\cpu\\cpu_s390x.s"
+	],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b012\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\cpu
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b012\\vet.cfg"
+cat >$WORK\b011\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/bytealg",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\bytealg",
+	"ImportPath": "internal/bytealg",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\bytealg\\bytealg.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_native.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_native.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_generic.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_native.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_amd64.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_native.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_native.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_amd64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_amd64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_amd64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_amd64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_amd64.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_generic.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_generic.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_arm64.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_generic.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_ppc64x.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_s390x.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_generic.go",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_386.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_arm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_arm64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_mips64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_mipsx.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_ppc64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_s390x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\compare_wasm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_arm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_arm64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_ppc64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_riscv64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\count_s390x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_386.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_arm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_arm64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_mips64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_mipsx.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_ppc64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_riscv64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_s390x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\equal_wasm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_arm64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_ppc64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\index_s390x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_386.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_arm.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_arm64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_mips64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_mipsx.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_ppc64x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_riscv64.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_s390x.s",
+		"D:\\GoRoot\\src\\internal\\bytealg\\indexbyte_wasm.s"
+	],
+	"ImportMap": {
+		"internal/cpu": "internal/cpu",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/cpu": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\cpu.a"
+	},
+	"Standard": {
+		"internal/cpu": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b011\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\bytealg
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b011\\vet.cfg"
+cat >$WORK\b013\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/goexperiment",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\goexperiment",
+	"ImportPath": "internal/goexperiment",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_fieldtrack_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_heapminimum512kib_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_pacerredesign_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_preemptibleloops_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabiargs_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabireflect_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabiwrappers_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_staticlockranking_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_unified_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\flags.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_fieldtrack_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_heapminimum512kib_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_pacerredesign_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_preemptibleloops_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabiargs_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabireflect_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_regabiwrappers_off.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_staticlockranking_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\exp_unified_on.go",
+		"D:\\GoRoot\\src\\internal\\goexperiment\\mkconsts.go"
+	],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b013\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\goexperiment
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b013\\vet.cfg"
+cat >$WORK\b014\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/goos",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\goos",
+	"ImportPath": "internal/goos",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\goos\\goos.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\goos\\gengoos.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_aix.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_android.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_darwin.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_dragonfly.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_freebsd.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_hurd.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_illumos.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_ios.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_js.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_linux.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_netbsd.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_openbsd.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_plan9.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_solaris.go",
+		"D:\\GoRoot\\src\\internal\\goos\\zgoos_zos.go"
+	],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b014\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\goos
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b014\\vet.cfg"
+cat >$WORK\b015\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime/internal/atomic",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime\\internal\\atomic",
+	"ImportPath": "runtime/internal/atomic",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\doc.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\stubs.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\types.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\types_64bit.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\unaligned.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_amd64.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_386.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_arm.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_wasm.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_386.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_arm.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\atomic_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\sys_linux_arm.s",
+		"D:\\GoRoot\\src\\runtime\\internal\\atomic\\sys_nonlinux_arm.s"
+	],
+	"ImportMap": {
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {},
+	"Standard": {
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b015\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime\internal\atomic
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b015\\vet.cfg"
+cat >$WORK\b016\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime/internal/math",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime\\internal\\math",
+	"ImportPath": "runtime/internal/math",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\math\\math.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"internal/goarch": "internal/goarch"
+	},
+	"PackageFile": {
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a"
+	},
+	"Standard": {
+		"internal/goarch": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b016\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime\internal\math
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b016\\vet.cfg"
+cat >$WORK\b017\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime/internal/sys",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime\\internal\\sys",
+	"ImportPath": "runtime/internal/sys",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\consts.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\intrinsics.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\intrinsics_common.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\sys.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\zversion.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\intrinsics_stubs.go",
+		"D:\\GoRoot\\src\\runtime\\internal\\sys\\intrinsics_386.s"
+	],
+	"ImportMap": {
+		"internal/goarch": "internal/goarch",
+		"internal/goos": "internal/goos"
+	},
+	"PackageFile": {
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a",
+		"internal/goos": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goos.a"
+	},
+	"Standard": {
+		"internal/goarch": true,
+		"internal/goos": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b017\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime\internal\sys
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b017\\vet.cfg"
+cat >$WORK\b009\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime",
+	"ImportPath": "runtime",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\alg.go",
+		"D:\\GoRoot\\src\\runtime\\asan0.go",
+		"D:\\GoRoot\\src\\runtime\\atomic_pointer.go",
+		"D:\\GoRoot\\src\\runtime\\auxv_none.go",
+		"D:\\GoRoot\\src\\runtime\\cgo.go",
+		"D:\\GoRoot\\src\\runtime\\cgocall.go",
+		"D:\\GoRoot\\src\\runtime\\cgocallback.go",
+		"D:\\GoRoot\\src\\runtime\\cgocheck.go",
+		"D:\\GoRoot\\src\\runtime\\chan.go",
+		"D:\\GoRoot\\src\\runtime\\checkptr.go",
+		"D:\\GoRoot\\src\\runtime\\compiler.go",
+		"D:\\GoRoot\\src\\runtime\\complex.go",
+		"D:\\GoRoot\\src\\runtime\\cpuflags.go",
+		"D:\\GoRoot\\src\\runtime\\cpuflags_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\cpuprof.go",
+		"D:\\GoRoot\\src\\runtime\\cputicks.go",
+		"D:\\GoRoot\\src\\runtime\\debug.go",
+		"D:\\GoRoot\\src\\runtime\\debugcall.go",
+		"D:\\GoRoot\\src\\runtime\\debuglog.go",
+		"D:\\GoRoot\\src\\runtime\\debuglog_off.go",
+		"D:\\GoRoot\\src\\runtime\\defs_windows.go",
+		"D:\\GoRoot\\src\\runtime\\defs_windows_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\env_posix.go",
+		"D:\\GoRoot\\src\\runtime\\error.go",
+		"D:\\GoRoot\\src\\runtime\\extern.go",
+		"D:\\GoRoot\\src\\runtime\\fastlog2.go",
+		"D:\\GoRoot\\src\\runtime\\fastlog2table.go",
+		"D:\\GoRoot\\src\\runtime\\float.go",
+		"D:\\GoRoot\\src\\runtime\\hash64.go",
+		"D:\\GoRoot\\src\\runtime\\heapdump.go",
+		"D:\\GoRoot\\src\\runtime\\histogram.go",
+		"D:\\GoRoot\\src\\runtime\\iface.go",
+		"D:\\GoRoot\\src\\runtime\\lfstack.go",
+		"D:\\GoRoot\\src\\runtime\\lfstack_64bit.go",
+		"D:\\GoRoot\\src\\runtime\\lock_sema.go",
+		"D:\\GoRoot\\src\\runtime\\lockrank.go",
+		"D:\\GoRoot\\src\\runtime\\lockrank_off.go",
+		"D:\\GoRoot\\src\\runtime\\malloc.go",
+		"D:\\GoRoot\\src\\runtime\\map.go",
+		"D:\\GoRoot\\src\\runtime\\map_fast32.go",
+		"D:\\GoRoot\\src\\runtime\\map_fast64.go",
+		"D:\\GoRoot\\src\\runtime\\map_faststr.go",
+		"D:\\GoRoot\\src\\runtime\\mbarrier.go",
+		"D:\\GoRoot\\src\\runtime\\mbitmap.go",
+		"D:\\GoRoot\\src\\runtime\\mcache.go",
+		"D:\\GoRoot\\src\\runtime\\mcentral.go",
+		"D:\\GoRoot\\src\\runtime\\mcheckmark.go",
+		"D:\\GoRoot\\src\\runtime\\mem_windows.go",
+		"D:\\GoRoot\\src\\runtime\\metrics.go",
+		"D:\\GoRoot\\src\\runtime\\mfinal.go",
+		"D:\\GoRoot\\src\\runtime\\mfixalloc.go",
+		"D:\\GoRoot\\src\\runtime\\mgc.go",
+		"D:\\GoRoot\\src\\runtime\\mgcmark.go",
+		"D:\\GoRoot\\src\\runtime\\mgcpacer.go",
+		"D:\\GoRoot\\src\\runtime\\mgcscavenge.go",
+		"D:\\GoRoot\\src\\runtime\\mgcstack.go",
+		"D:\\GoRoot\\src\\runtime\\mgcsweep.go",
+		"D:\\GoRoot\\src\\runtime\\mgcwork.go",
+		"D:\\GoRoot\\src\\runtime\\mheap.go",
+		"D:\\GoRoot\\src\\runtime\\mpagealloc.go",
+		"D:\\GoRoot\\src\\runtime\\mpagealloc_64bit.go",
+		"D:\\GoRoot\\src\\runtime\\mpagecache.go",
+		"D:\\GoRoot\\src\\runtime\\mpallocbits.go",
+		"D:\\GoRoot\\src\\runtime\\mprof.go",
+		"D:\\GoRoot\\src\\runtime\\mranges.go",
+		"D:\\GoRoot\\src\\runtime\\msan0.go",
+		"D:\\GoRoot\\src\\runtime\\msize.go",
+		"D:\\GoRoot\\src\\runtime\\mspanset.go",
+		"D:\\GoRoot\\src\\runtime\\mstats.go",
+		"D:\\GoRoot\\src\\runtime\\mwbbuf.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_windows.go",
+		"D:\\GoRoot\\src\\runtime\\os_nonopenbsd.go",
+		"D:\\GoRoot\\src\\runtime\\os_windows.go",
+		"D:\\GoRoot\\src\\runtime\\panic.go",
+		"D:\\GoRoot\\src\\runtime\\plugin.go",
+		"D:\\GoRoot\\src\\runtime\\preempt.go",
+		"D:\\GoRoot\\src\\runtime\\print.go",
+		"D:\\GoRoot\\src\\runtime\\proc.go",
+		"D:\\GoRoot\\src\\runtime\\profbuf.go",
+		"D:\\GoRoot\\src\\runtime\\proflabel.go",
+		"D:\\GoRoot\\src\\runtime\\race0.go",
+		"D:\\GoRoot\\src\\runtime\\rdebug.go",
+		"D:\\GoRoot\\src\\runtime\\runtime.go",
+		"D:\\GoRoot\\src\\runtime\\runtime1.go",
+		"D:\\GoRoot\\src\\runtime\\runtime2.go",
+		"D:\\GoRoot\\src\\runtime\\rwmutex.go",
+		"D:\\GoRoot\\src\\runtime\\select.go",
+		"D:\\GoRoot\\src\\runtime\\sema.go",
+		"D:\\GoRoot\\src\\runtime\\signal_windows.go",
+		"D:\\GoRoot\\src\\runtime\\sigqueue.go",
+		"D:\\GoRoot\\src\\runtime\\sigqueue_note.go",
+		"D:\\GoRoot\\src\\runtime\\sizeclasses.go",
+		"D:\\GoRoot\\src\\runtime\\slice.go",
+		"D:\\GoRoot\\src\\runtime\\softfloat64.go",
+		"D:\\GoRoot\\src\\runtime\\stack.go",
+		"D:\\GoRoot\\src\\runtime\\string.go",
+		"D:\\GoRoot\\src\\runtime\\stubs.go",
+		"D:\\GoRoot\\src\\runtime\\stubs3.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_nonlinux.go",
+		"D:\\GoRoot\\src\\runtime\\symtab.go",
+		"D:\\GoRoot\\src\\runtime\\sys_nonppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\sys_x86.go",
+		"D:\\GoRoot\\src\\runtime\\syscall_windows.go",
+		"D:\\GoRoot\\src\\runtime\\time.go",
+		"D:\\GoRoot\\src\\runtime\\time_nofake.go",
+		"D:\\GoRoot\\src\\runtime\\timeasm.go",
+		"D:\\GoRoot\\src\\runtime\\tls_windows_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\trace.go",
+		"D:\\GoRoot\\src\\runtime\\traceback.go",
+		"D:\\GoRoot\\src\\runtime\\type.go",
+		"D:\\GoRoot\\src\\runtime\\typekind.go",
+		"D:\\GoRoot\\src\\runtime\\utf8.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_in_none.go",
+		"D:\\GoRoot\\src\\runtime\\write_err.go",
+		"D:\\GoRoot\\src\\runtime\\zcallback_windows.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\runtime\\asm.s",
+		"D:\\GoRoot\\src\\runtime\\asm_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\duff_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_windows_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_windows_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\time_windows_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\zcallback_windows.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\runtime\\asan.go",
+		"D:\\GoRoot\\src\\runtime\\cgo_mmap.go",
+		"D:\\GoRoot\\src\\runtime\\cgo_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\cgo_sigaction.go",
+		"D:\\GoRoot\\src\\runtime\\conv_wasm_test.go",
+		"D:\\GoRoot\\src\\runtime\\cpuflags_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\crash_unix_test.go",
+		"D:\\GoRoot\\src\\runtime\\debug_test.go",
+		"D:\\GoRoot\\src\\runtime\\debuglog_on.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_linux.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_netbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_netbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\defs1_solaris_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs2_linux.go",
+		"D:\\GoRoot\\src\\runtime\\defs3_linux.go",
+		"D:\\GoRoot\\src\\runtime\\defs_aix.go",
+		"D:\\GoRoot\\src\\runtime\\defs_aix_ppc64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_arm_linux.go",
+		"D:\\GoRoot\\src\\runtime\\defs_darwin.go",
+		"D:\\GoRoot\\src\\runtime\\defs_darwin_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_darwin_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_dragonfly.go",
+		"D:\\GoRoot\\src\\runtime\\defs_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_freebsd.go",
+		"D:\\GoRoot\\src\\runtime\\defs_freebsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_freebsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_illumos_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_ppc64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_ppc64le.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_linux_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\defs_netbsd.go",
+		"D:\\GoRoot\\src\\runtime\\defs_netbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_netbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_plan9_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_plan9_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_plan9_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\defs_solaris_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\defs_windows_386.go",
+		"D:\\GoRoot\\src\\runtime\\defs_windows_arm.go",
+		"D:\\GoRoot\\src\\runtime\\defs_windows_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\env_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\export_aix_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_arm_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_darwin_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_debug_regabiargs_off_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_debug_regabiargs_on_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_debug_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_linux_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_mmap_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_pipe2_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_pipe_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_solaris_test.go",
+		"D:\\GoRoot\\src\\runtime\\export_unix_test.go",
+		"D:\\GoRoot\\src\\runtime\\hash32.go",
+		"D:\\GoRoot\\src\\runtime\\lfstack_32bit.go",
+		"D:\\GoRoot\\src\\runtime\\libfuzzer.go",
+		"D:\\GoRoot\\src\\runtime\\lock_futex.go",
+		"D:\\GoRoot\\src\\runtime\\lock_js.go",
+		"D:\\GoRoot\\src\\runtime\\lockrank_on.go",
+		"D:\\GoRoot\\src\\runtime\\mem_aix.go",
+		"D:\\GoRoot\\src\\runtime\\mem_bsd.go",
+		"D:\\GoRoot\\src\\runtime\\mem_darwin.go",
+		"D:\\GoRoot\\src\\runtime\\mem_js.go",
+		"D:\\GoRoot\\src\\runtime\\mem_linux.go",
+		"D:\\GoRoot\\src\\runtime\\mem_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\memmove_linux_amd64_test.go",
+		"D:\\GoRoot\\src\\runtime\\mkduff.go",
+		"D:\\GoRoot\\src\\runtime\\mkfastlog2table.go",
+		"D:\\GoRoot\\src\\runtime\\mkpreempt.go",
+		"D:\\GoRoot\\src\\runtime\\mksizeclasses.go",
+		"D:\\GoRoot\\src\\runtime\\mmap.go",
+		"D:\\GoRoot\\src\\runtime\\mpagealloc_32bit.go",
+		"D:\\GoRoot\\src\\runtime\\msan.go",
+		"D:\\GoRoot\\src\\runtime\\nbpipe_fcntl_libc_test.go",
+		"D:\\GoRoot\\src\\runtime\\nbpipe_fcntl_unix_test.go",
+		"D:\\GoRoot\\src\\runtime\\nbpipe_pipe.go",
+		"D:\\GoRoot\\src\\runtime\\nbpipe_pipe2.go",
+		"D:\\GoRoot\\src\\runtime\\nbpipe_test.go",
+		"D:\\GoRoot\\src\\runtime\\net_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_aix.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_epoll.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_fake.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_kqueue.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\netpoll_stub.go",
+		"D:\\GoRoot\\src\\runtime\\norace_linux_test.go",
+		"D:\\GoRoot\\src\\runtime\\numcpu_freebsd_test.go",
+		"D:\\GoRoot\\src\\runtime\\os2_aix.go",
+		"D:\\GoRoot\\src\\runtime\\os2_freebsd.go",
+		"D:\\GoRoot\\src\\runtime\\os2_openbsd.go",
+		"D:\\GoRoot\\src\\runtime\\os2_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\os2_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\os3_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\os3_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\os_aix.go",
+		"D:\\GoRoot\\src\\runtime\\os_android.go",
+		"D:\\GoRoot\\src\\runtime\\os_darwin.go",
+		"D:\\GoRoot\\src\\runtime\\os_darwin_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\os_dragonfly.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd2.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\os_freebsd_noauxv.go",
+		"D:\\GoRoot\\src\\runtime\\os_illumos.go",
+		"D:\\GoRoot\\src\\runtime\\os_js.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_be64.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_generic.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_noauxv.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_novdso.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\os_linux_x86.go",
+		"D:\\GoRoot\\src\\runtime\\os_netbsd.go",
+		"D:\\GoRoot\\src\\runtime\\os_netbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\os_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\os_netbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\os_only_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_libc.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_syscall.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_syscall1.go",
+		"D:\\GoRoot\\src\\runtime\\os_openbsd_syscall2.go",
+		"D:\\GoRoot\\src\\runtime\\os_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\os_plan9_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\os_windows_arm.go",
+		"D:\\GoRoot\\src\\runtime\\os_windows_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\panic32.go",
+		"D:\\GoRoot\\src\\runtime\\preempt_nonwindows.go",
+		"D:\\GoRoot\\src\\runtime\\race.go",
+		"D:\\GoRoot\\src\\runtime\\relax_stub.go",
+		"D:\\GoRoot\\src\\runtime\\runtime_linux_test.go",
+		"D:\\GoRoot\\src\\runtime\\runtime_mmap_test.go",
+		"D:\\GoRoot\\src\\runtime\\runtime_unix_test.go",
+		"D:\\GoRoot\\src\\runtime\\semasleep_test.go",
+		"D:\\GoRoot\\src\\runtime\\sigaction.go",
+		"D:\\GoRoot\\src\\runtime\\signal_386.go",
+		"D:\\GoRoot\\src\\runtime\\signal_aix_ppc64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_arm.go",
+		"D:\\GoRoot\\src\\runtime\\signal_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_darwin.go",
+		"D:\\GoRoot\\src\\runtime\\signal_darwin_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_darwin_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_dragonfly.go",
+		"D:\\GoRoot\\src\\runtime\\signal_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_freebsd.go",
+		"D:\\GoRoot\\src\\runtime\\signal_freebsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\signal_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_freebsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\signal_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_386.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_arm.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_linux_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\signal_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\signal_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\signal_netbsd.go",
+		"D:\\GoRoot\\src\\runtime\\signal_netbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\signal_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_netbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\signal_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd_386.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\signal_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\signal_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\signal_solaris_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\signal_unix.go",
+		"D:\\GoRoot\\src\\runtime\\sigqueue_plan9.go",
+		"D:\\GoRoot\\src\\runtime\\sigtab_aix.go",
+		"D:\\GoRoot\\src\\runtime\\sigtab_linux_generic.go",
+		"D:\\GoRoot\\src\\runtime\\sigtab_linux_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\stubs2.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_386.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_arm.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_linux.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_ppc64.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\stubs_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\sys_arm.go",
+		"D:\\GoRoot\\src\\runtime\\sys_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\sys_darwin.go",
+		"D:\\GoRoot\\src\\runtime\\sys_darwin_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\sys_libc.go",
+		"D:\\GoRoot\\src\\runtime\\sys_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\sys_mipsx.go",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd.go",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd1.go",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd2.go",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd3.go",
+		"D:\\GoRoot\\src\\runtime\\sys_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\sys_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\sys_s390x.go",
+		"D:\\GoRoot\\src\\runtime\\sys_wasm.go",
+		"D:\\GoRoot\\src\\runtime\\syscall2_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\syscall_aix.go",
+		"D:\\GoRoot\\src\\runtime\\syscall_solaris.go",
+		"D:\\GoRoot\\src\\runtime\\time_fake.go",
+		"D:\\GoRoot\\src\\runtime\\timestub.go",
+		"D:\\GoRoot\\src\\runtime\\timestub2.go",
+		"D:\\GoRoot\\src\\runtime\\tls_stub.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_elf32.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_elf64.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_freebsd.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_freebsd_arm.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_freebsd_x86.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_386.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_amd64.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_arm.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_arm64.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_mips64x.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_ppc64x.go",
+		"D:\\GoRoot\\src\\runtime\\vdso_linux_riscv64.go",
+		"D:\\GoRoot\\src\\runtime\\vlop_arm_test.go",
+		"D:\\GoRoot\\src\\runtime\\vlrt.go",
+		"D:\\GoRoot\\src\\runtime\\wincallback.go",
+		"D:\\GoRoot\\src\\runtime\\write_err_android.go",
+		"D:\\GoRoot\\src\\runtime\\asan_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\asan_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\asm_386.s",
+		"D:\\GoRoot\\src\\runtime\\asm_arm.s",
+		"D:\\GoRoot\\src\\runtime\\asm_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\asm_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\asm_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\asm_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\asm_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\asm_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\asm_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\atomic_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\atomic_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\atomic_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\atomic_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\atomic_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\duff_386.s",
+		"D:\\GoRoot\\src\\runtime\\duff_arm.s",
+		"D:\\GoRoot\\src\\runtime\\duff_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\duff_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\duff_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\duff_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\duff_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\libfuzzer_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\libfuzzer_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_386.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_arm.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_plan9_386.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_plan9_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\memclr_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_386.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_arm.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_plan9_386.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_plan9_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\memmove_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\msan_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\msan_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_386.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_arm.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\preempt_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\race_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\race_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\race_ppc64le.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_aix_ppc64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_android_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_android_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_android_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_android_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_darwin_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_darwin_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_dragonfly_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_freebsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_freebsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_freebsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_freebsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_illumos_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_ios_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_ios_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_js_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_ppc64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_ppc64le.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_linux_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_netbsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_netbsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_netbsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_netbsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_openbsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_openbsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_openbsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_openbsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_openbsd_mips64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_plan9_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_plan9_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_plan9_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_solaris_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_windows_386.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_windows_arm.s",
+		"D:\\GoRoot\\src\\runtime\\rt0_windows_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_aix_ppc64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_darwin_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_darwin_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_dragonfly_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_freebsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_freebsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_freebsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_freebsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_linux_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\sys_netbsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_netbsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_netbsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_netbsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_openbsd_mips64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_plan9_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_plan9_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_plan9_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_solaris_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\sys_wasm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_windows_386.s",
+		"D:\\GoRoot\\src\\runtime\\sys_windows_arm.s",
+		"D:\\GoRoot\\src\\runtime\\sys_windows_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\time_linux_amd64.s",
+		"D:\\GoRoot\\src\\runtime\\time_windows_386.s",
+		"D:\\GoRoot\\src\\runtime\\time_windows_arm.s",
+		"D:\\GoRoot\\src\\runtime\\time_windows_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\tls_arm.s",
+		"D:\\GoRoot\\src\\runtime\\tls_arm64.h",
+		"D:\\GoRoot\\src\\runtime\\tls_arm64.s",
+		"D:\\GoRoot\\src\\runtime\\tls_mips64x.s",
+		"D:\\GoRoot\\src\\runtime\\tls_mipsx.s",
+		"D:\\GoRoot\\src\\runtime\\tls_ppc64x.s",
+		"D:\\GoRoot\\src\\runtime\\tls_riscv64.s",
+		"D:\\GoRoot\\src\\runtime\\tls_s390x.s",
+		"D:\\GoRoot\\src\\runtime\\vlop_386.s",
+		"D:\\GoRoot\\src\\runtime\\vlop_arm.s",
+		"D:\\GoRoot\\src\\runtime\\zcallback_windows_arm.s",
+		"D:\\GoRoot\\src\\runtime\\zcallback_windows_arm64.s"
+	],
+	"ImportMap": {
+		"internal/abi": "internal/abi",
+		"internal/bytealg": "internal/bytealg",
+		"internal/cpu": "internal/cpu",
+		"internal/goarch": "internal/goarch",
+		"internal/goexperiment": "internal/goexperiment",
+		"internal/goos": "internal/goos",
+		"runtime/internal/atomic": "runtime/internal/atomic",
+		"runtime/internal/math": "runtime/internal/math",
+		"runtime/internal/sys": "runtime/internal/sys",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/abi": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\abi.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"internal/cpu": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\cpu.a",
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a",
+		"internal/goexperiment": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goexperiment.a",
+		"internal/goos": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goos.a",
+		"runtime/internal/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\runtime\\internal\\atomic.a",
+		"runtime/internal/math": "D:\\GoRoot\\pkg\\windows_amd64\\runtime\\internal\\math.a",
+		"runtime/internal/sys": "D:\\GoRoot\\pkg\\windows_amd64\\runtime\\internal\\sys.a"
+	},
+	"Standard": {
+		"internal/abi": true,
+		"internal/bytealg": true,
+		"internal/cpu": true,
+		"internal/goarch": true,
+		"internal/goexperiment": true,
+		"internal/goos": true,
+		"runtime/internal/atomic": true,
+		"runtime/internal/math": true,
+		"runtime/internal/sys": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b009\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b009\\vet.cfg"
+cat >$WORK\b005\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/reflectlite",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\reflectlite",
+	"ImportPath": "internal/reflectlite",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\reflectlite\\swapper.go",
+		"D:\\GoRoot\\src\\internal\\reflectlite\\type.go",
+		"D:\\GoRoot\\src\\internal\\reflectlite\\value.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\internal\\reflectlite\\asm.s"
+	],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"internal/goarch": "internal/goarch",
+		"internal/unsafeheader": "internal/unsafeheader",
+		"runtime": "runtime",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a",
+		"internal/unsafeheader": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\unsafeheader.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a"
+	},
+	"Standard": {
+		"internal/goarch": true,
+		"internal/unsafeheader": true,
+		"runtime": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b005\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\reflectlite
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b005\\vet.cfg"
+cat >$WORK\b004\vet.cfg << 'EOF' # internal
+{
+	"ID": "errors",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\errors",
+	"ImportPath": "errors",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\errors\\errors.go",
+		"D:\\GoRoot\\src\\errors\\wrap.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"internal/reflectlite": "internal/reflectlite"
+	},
+	"PackageFile": {
+		"internal/reflectlite": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\reflectlite.a"
+	},
+	"Standard": {
+		"internal/reflectlite": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b004\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\errors
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b004\\vet.cfg"
+cat >$WORK\b020\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/race",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\race",
+	"ImportPath": "internal/race",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\race\\doc.go",
+		"D:\\GoRoot\\src\\internal\\race\\norace.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\race\\race.go"
+	],
+	"ImportMap": {
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {},
+	"Standard": {
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b020\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\race
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b020\\vet.cfg"
+cat >$WORK\b021\vet.cfg << 'EOF' # internal
+{
+	"ID": "sync/atomic",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\sync\\atomic",
+	"ImportPath": "sync/atomic",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\sync\\atomic\\doc.go",
+		"D:\\GoRoot\\src\\sync\\atomic\\value.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\sync\\atomic\\asm.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\sync\\atomic\\race.s"
+	],
+	"ImportMap": {
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {},
+	"Standard": {
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b021\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\sync\atomic
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b021\\vet.cfg"
+cat >$WORK\b019\vet.cfg << 'EOF' # internal
+{
+	"ID": "sync",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\sync",
+	"ImportPath": "sync",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\sync\\cond.go",
+		"D:\\GoRoot\\src\\sync\\map.go",
+		"D:\\GoRoot\\src\\sync\\mutex.go",
+		"D:\\GoRoot\\src\\sync\\once.go",
+		"D:\\GoRoot\\src\\sync\\pool.go",
+		"D:\\GoRoot\\src\\sync\\poolqueue.go",
+		"D:\\GoRoot\\src\\sync\\runtime.go",
+		"D:\\GoRoot\\src\\sync\\runtime2.go",
+		"D:\\GoRoot\\src\\sync\\rwmutex.go",
+		"D:\\GoRoot\\src\\sync\\waitgroup.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\sync\\runtime2_lockrank.go"
+	],
+	"ImportMap": {
+		"internal/race": "internal/race",
+		"runtime": "runtime",
+		"sync/atomic": "sync/atomic",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/race": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\race.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a"
+	},
+	"Standard": {
+		"internal/race": true,
+		"runtime": true,
+		"sync/atomic": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b019\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\sync
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b019\\vet.cfg"
+cat >$WORK\b018\vet.cfg << 'EOF' # internal
+{
+	"ID": "io",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\io",
+	"ImportPath": "io",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\io\\io.go",
+		"D:\\GoRoot\\src\\io\\multi.go",
+		"D:\\GoRoot\\src\\io\\pipe.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"sync": "sync"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a"
+	},
+	"Standard": {
+		"errors": true,
+		"sync": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b018\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\io
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b018\\vet.cfg"
+cat >$WORK\b022\vet.cfg << 'EOF' # internal
+{
+	"ID": "unicode",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\unicode",
+	"ImportPath": "unicode",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\unicode\\casetables.go",
+		"D:\\GoRoot\\src\\unicode\\digit.go",
+		"D:\\GoRoot\\src\\unicode\\graphic.go",
+		"D:\\GoRoot\\src\\unicode\\letter.go",
+		"D:\\GoRoot\\src\\unicode\\tables.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b022\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\unicode
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b022\\vet.cfg"
+cat >$WORK\b023\vet.cfg << 'EOF' # internal
+{
+	"ID": "unicode/utf8",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\unicode\\utf8",
+	"ImportPath": "unicode/utf8",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\unicode\\utf8\\utf8.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b023\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\unicode\utf8
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b023\\vet.cfg"
+cat >$WORK\b003\vet.cfg << 'EOF' # internal
+{
+	"ID": "bytes",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\bytes",
+	"ImportPath": "bytes",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\bytes\\buffer.go",
+		"D:\\GoRoot\\src\\bytes\\bytes.go",
+		"D:\\GoRoot\\src\\bytes\\reader.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\bytes\\boundary_test.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/bytealg": "internal/bytealg",
+		"io": "io",
+		"unicode": "unicode",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"unicode": "D:\\GoRoot\\pkg\\windows_amd64\\unicode.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/bytealg": true,
+		"io": true,
+		"unicode": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b003\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\bytes
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b003\\vet.cfg"
+cat >$WORK\b028\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/itoa",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\itoa",
+	"ImportPath": "internal/itoa",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\itoa\\itoa.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b028\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\itoa
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b028\\vet.cfg"
+cat >$WORK\b030\vet.cfg << 'EOF' # internal
+{
+	"ID": "math/bits",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\math\\bits",
+	"ImportPath": "math/bits",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\math\\bits\\bits.go",
+		"D:\\GoRoot\\src\\math\\bits\\bits_errors.go",
+		"D:\\GoRoot\\src\\math\\bits\\bits_tables.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\math\\bits\\bits_errors_bootstrap.go",
+		"D:\\GoRoot\\src\\math\\bits\\make_examples.go",
+		"D:\\GoRoot\\src\\math\\bits\\make_tables.go"
+	],
+	"ImportMap": {
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {},
+	"Standard": {
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b030\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\math\bits
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b030\\vet.cfg"
+cat >$WORK\b029\vet.cfg << 'EOF' # internal
+{
+	"ID": "math",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\math",
+	"ImportPath": "math",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\math\\abs.go",
+		"D:\\GoRoot\\src\\math\\acosh.go",
+		"D:\\GoRoot\\src\\math\\asin.go",
+		"D:\\GoRoot\\src\\math\\asinh.go",
+		"D:\\GoRoot\\src\\math\\atan.go",
+		"D:\\GoRoot\\src\\math\\atan2.go",
+		"D:\\GoRoot\\src\\math\\atanh.go",
+		"D:\\GoRoot\\src\\math\\bits.go",
+		"D:\\GoRoot\\src\\math\\cbrt.go",
+		"D:\\GoRoot\\src\\math\\const.go",
+		"D:\\GoRoot\\src\\math\\copysign.go",
+		"D:\\GoRoot\\src\\math\\dim.go",
+		"D:\\GoRoot\\src\\math\\dim_asm.go",
+		"D:\\GoRoot\\src\\math\\erf.go",
+		"D:\\GoRoot\\src\\math\\erfinv.go",
+		"D:\\GoRoot\\src\\math\\exp.go",
+		"D:\\GoRoot\\src\\math\\exp2_noasm.go",
+		"D:\\GoRoot\\src\\math\\exp_amd64.go",
+		"D:\\GoRoot\\src\\math\\exp_asm.go",
+		"D:\\GoRoot\\src\\math\\expm1.go",
+		"D:\\GoRoot\\src\\math\\floor.go",
+		"D:\\GoRoot\\src\\math\\floor_asm.go",
+		"D:\\GoRoot\\src\\math\\fma.go",
+		"D:\\GoRoot\\src\\math\\frexp.go",
+		"D:\\GoRoot\\src\\math\\gamma.go",
+		"D:\\GoRoot\\src\\math\\hypot.go",
+		"D:\\GoRoot\\src\\math\\hypot_asm.go",
+		"D:\\GoRoot\\src\\math\\j0.go",
+		"D:\\GoRoot\\src\\math\\j1.go",
+		"D:\\GoRoot\\src\\math\\jn.go",
+		"D:\\GoRoot\\src\\math\\ldexp.go",
+		"D:\\GoRoot\\src\\math\\lgamma.go",
+		"D:\\GoRoot\\src\\math\\log.go",
+		"D:\\GoRoot\\src\\math\\log10.go",
+		"D:\\GoRoot\\src\\math\\log1p.go",
+		"D:\\GoRoot\\src\\math\\log_asm.go",
+		"D:\\GoRoot\\src\\math\\logb.go",
+		"D:\\GoRoot\\src\\math\\mod.go",
+		"D:\\GoRoot\\src\\math\\modf.go",
+		"D:\\GoRoot\\src\\math\\modf_noasm.go",
+		"D:\\GoRoot\\src\\math\\nextafter.go",
+		"D:\\GoRoot\\src\\math\\pow.go",
+		"D:\\GoRoot\\src\\math\\pow10.go",
+		"D:\\GoRoot\\src\\math\\remainder.go",
+		"D:\\GoRoot\\src\\math\\signbit.go",
+		"D:\\GoRoot\\src\\math\\sin.go",
+		"D:\\GoRoot\\src\\math\\sincos.go",
+		"D:\\GoRoot\\src\\math\\sinh.go",
+		"D:\\GoRoot\\src\\math\\sqrt.go",
+		"D:\\GoRoot\\src\\math\\sqrt_asm.go",
+		"D:\\GoRoot\\src\\math\\stubs.go",
+		"D:\\GoRoot\\src\\math\\tan.go",
+		"D:\\GoRoot\\src\\math\\tanh.go",
+		"D:\\GoRoot\\src\\math\\trig_reduce.go",
+		"D:\\GoRoot\\src\\math\\unsafe.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\math\\dim_amd64.s",
+		"D:\\GoRoot\\src\\math\\exp_amd64.s",
+		"D:\\GoRoot\\src\\math\\floor_amd64.s",
+		"D:\\GoRoot\\src\\math\\hypot_amd64.s",
+		"D:\\GoRoot\\src\\math\\log_amd64.s",
+		"D:\\GoRoot\\src\\math\\sqrt_amd64.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\math\\arith_s390x.go",
+		"D:\\GoRoot\\src\\math\\arith_s390x_test.go",
+		"D:\\GoRoot\\src\\math\\dim_noasm.go",
+		"D:\\GoRoot\\src\\math\\exp2_asm.go",
+		"D:\\GoRoot\\src\\math\\exp_noasm.go",
+		"D:\\GoRoot\\src\\math\\export_s390x_test.go",
+		"D:\\GoRoot\\src\\math\\floor_noasm.go",
+		"D:\\GoRoot\\src\\math\\hypot_noasm.go",
+		"D:\\GoRoot\\src\\math\\log_stub.go",
+		"D:\\GoRoot\\src\\math\\modf_asm.go",
+		"D:\\GoRoot\\src\\math\\sqrt_noasm.go",
+		"D:\\GoRoot\\src\\math\\acos_s390x.s",
+		"D:\\GoRoot\\src\\math\\acosh_s390x.s",
+		"D:\\GoRoot\\src\\math\\asin_s390x.s",
+		"D:\\GoRoot\\src\\math\\asinh_s390x.s",
+		"D:\\GoRoot\\src\\math\\atan2_s390x.s",
+		"D:\\GoRoot\\src\\math\\atan_s390x.s",
+		"D:\\GoRoot\\src\\math\\atanh_s390x.s",
+		"D:\\GoRoot\\src\\math\\cbrt_s390x.s",
+		"D:\\GoRoot\\src\\math\\cosh_s390x.s",
+		"D:\\GoRoot\\src\\math\\dim_arm64.s",
+		"D:\\GoRoot\\src\\math\\dim_riscv64.s",
+		"D:\\GoRoot\\src\\math\\dim_s390x.s",
+		"D:\\GoRoot\\src\\math\\erf_s390x.s",
+		"D:\\GoRoot\\src\\math\\erfc_s390x.s",
+		"D:\\GoRoot\\src\\math\\exp_arm64.s",
+		"D:\\GoRoot\\src\\math\\exp_s390x.s",
+		"D:\\GoRoot\\src\\math\\expm1_s390x.s",
+		"D:\\GoRoot\\src\\math\\floor_386.s",
+		"D:\\GoRoot\\src\\math\\floor_arm64.s",
+		"D:\\GoRoot\\src\\math\\floor_ppc64x.s",
+		"D:\\GoRoot\\src\\math\\floor_s390x.s",
+		"D:\\GoRoot\\src\\math\\floor_wasm.s",
+		"D:\\GoRoot\\src\\math\\hypot_386.s",
+		"D:\\GoRoot\\src\\math\\log10_s390x.s",
+		"D:\\GoRoot\\src\\math\\log1p_s390x.s",
+		"D:\\GoRoot\\src\\math\\log_s390x.s",
+		"D:\\GoRoot\\src\\math\\modf_arm64.s",
+		"D:\\GoRoot\\src\\math\\modf_ppc64x.s",
+		"D:\\GoRoot\\src\\math\\pow_s390x.s",
+		"D:\\GoRoot\\src\\math\\sin_s390x.s",
+		"D:\\GoRoot\\src\\math\\sinh_s390x.s",
+		"D:\\GoRoot\\src\\math\\sqrt_386.s",
+		"D:\\GoRoot\\src\\math\\sqrt_arm.s",
+		"D:\\GoRoot\\src\\math\\sqrt_arm64.s",
+		"D:\\GoRoot\\src\\math\\sqrt_mipsx.s",
+		"D:\\GoRoot\\src\\math\\sqrt_ppc64x.s",
+		"D:\\GoRoot\\src\\math\\sqrt_riscv64.s",
+		"D:\\GoRoot\\src\\math\\sqrt_s390x.s",
+		"D:\\GoRoot\\src\\math\\sqrt_wasm.s",
+		"D:\\GoRoot\\src\\math\\stubs_s390x.s",
+		"D:\\GoRoot\\src\\math\\tan_s390x.s",
+		"D:\\GoRoot\\src\\math\\tanh_s390x.s"
+	],
+	"ImportMap": {
+		"internal/cpu": "internal/cpu",
+		"math/bits": "math/bits",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/cpu": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\cpu.a",
+		"math/bits": "D:\\GoRoot\\pkg\\windows_amd64\\math\\bits.a"
+	},
+	"Standard": {
+		"internal/cpu": true,
+		"math/bits": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b029\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\math
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b029\\vet.cfg"
+cat >$WORK\b031\vet.cfg << 'EOF' # internal
+{
+	"ID": "strconv",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\strconv",
+	"ImportPath": "strconv",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\strconv\\atob.go",
+		"D:\\GoRoot\\src\\strconv\\atoc.go",
+		"D:\\GoRoot\\src\\strconv\\atof.go",
+		"D:\\GoRoot\\src\\strconv\\atoi.go",
+		"D:\\GoRoot\\src\\strconv\\bytealg.go",
+		"D:\\GoRoot\\src\\strconv\\ctoa.go",
+		"D:\\GoRoot\\src\\strconv\\decimal.go",
+		"D:\\GoRoot\\src\\strconv\\doc.go",
+		"D:\\GoRoot\\src\\strconv\\eisel_lemire.go",
+		"D:\\GoRoot\\src\\strconv\\ftoa.go",
+		"D:\\GoRoot\\src\\strconv\\ftoaryu.go",
+		"D:\\GoRoot\\src\\strconv\\isprint.go",
+		"D:\\GoRoot\\src\\strconv\\itoa.go",
+		"D:\\GoRoot\\src\\strconv\\quote.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\strconv\\bytealg_bootstrap.go",
+		"D:\\GoRoot\\src\\strconv\\makeisprint.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/bytealg": "internal/bytealg",
+		"math": "math",
+		"math/bits": "math/bits",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"math": "D:\\GoRoot\\pkg\\windows_amd64\\math.a",
+		"math/bits": "D:\\GoRoot\\pkg\\windows_amd64\\math\\bits.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/bytealg": true,
+		"math": true,
+		"math/bits": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b031\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\strconv
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b031\\vet.cfg"
+cat >$WORK\b027\vet.cfg << 'EOF' # internal
+{
+	"ID": "reflect",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\reflect",
+	"ImportPath": "reflect",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\reflect\\abi.go",
+		"D:\\GoRoot\\src\\reflect\\deepequal.go",
+		"D:\\GoRoot\\src\\reflect\\float32reg_generic.go",
+		"D:\\GoRoot\\src\\reflect\\makefunc.go",
+		"D:\\GoRoot\\src\\reflect\\swapper.go",
+		"D:\\GoRoot\\src\\reflect\\type.go",
+		"D:\\GoRoot\\src\\reflect\\value.go",
+		"D:\\GoRoot\\src\\reflect\\visiblefields.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\reflect\\asm_amd64.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\reflect\\stubs_ppc64x.go",
+		"D:\\GoRoot\\src\\reflect\\asm_386.s",
+		"D:\\GoRoot\\src\\reflect\\asm_arm.s",
+		"D:\\GoRoot\\src\\reflect\\asm_arm64.s",
+		"D:\\GoRoot\\src\\reflect\\asm_mips64x.s",
+		"D:\\GoRoot\\src\\reflect\\asm_mipsx.s",
+		"D:\\GoRoot\\src\\reflect\\asm_ppc64x.s",
+		"D:\\GoRoot\\src\\reflect\\asm_riscv64.s",
+		"D:\\GoRoot\\src\\reflect\\asm_s390x.s",
+		"D:\\GoRoot\\src\\reflect\\asm_wasm.s",
+		"D:\\GoRoot\\src\\reflect\\float32reg_ppc64x.s"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/abi": "internal/abi",
+		"internal/bytealg": "internal/bytealg",
+		"internal/goarch": "internal/goarch",
+		"internal/goexperiment": "internal/goexperiment",
+		"internal/itoa": "internal/itoa",
+		"internal/unsafeheader": "internal/unsafeheader",
+		"math": "math",
+		"runtime": "runtime",
+		"strconv": "strconv",
+		"sync": "sync",
+		"unicode": "unicode",
+		"unicode/utf8": "unicode/utf8",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/abi": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\abi.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"internal/goarch": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goarch.a",
+		"internal/goexperiment": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\goexperiment.a",
+		"internal/itoa": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\itoa.a",
+		"internal/unsafeheader": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\unsafeheader.a",
+		"math": "D:\\GoRoot\\pkg\\windows_amd64\\math.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"strconv": "D:\\GoRoot\\pkg\\windows_amd64\\strconv.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"unicode": "D:\\GoRoot\\pkg\\windows_amd64\\unicode.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/abi": true,
+		"internal/bytealg": true,
+		"internal/goarch": true,
+		"internal/goexperiment": true,
+		"internal/itoa": true,
+		"internal/unsafeheader": true,
+		"math": true,
+		"runtime": true,
+		"strconv": true,
+		"sync": true,
+		"unicode": true,
+		"unicode/utf8": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b027\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\reflect
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b027\\vet.cfg"
+cat >$WORK\b032\vet.cfg << 'EOF' # internal
+{
+	"ID": "sort",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\sort",
+	"ImportPath": "sort",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\sort\\search.go",
+		"D:\\GoRoot\\src\\sort\\slice.go",
+		"D:\\GoRoot\\src\\sort\\slice_go113.go",
+		"D:\\GoRoot\\src\\sort\\sort.go",
+		"D:\\GoRoot\\src\\sort\\zfuncversion.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\sort\\genzfunc.go",
+		"D:\\GoRoot\\src\\sort\\slice_go14.go",
+		"D:\\GoRoot\\src\\sort\\slice_go18.go"
+	],
+	"ImportMap": {
+		"internal/reflectlite": "internal/reflectlite"
+	},
+	"PackageFile": {
+		"internal/reflectlite": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\reflectlite.a"
+	},
+	"Standard": {
+		"internal/reflectlite": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b032\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\sort
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b032\\vet.cfg"
+cat >$WORK\b026\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/fmtsort",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\fmtsort",
+	"ImportPath": "internal/fmtsort",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\fmtsort\\sort.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"reflect": "reflect",
+		"sort": "sort"
+	},
+	"PackageFile": {
+		"reflect": "D:\\GoRoot\\pkg\\windows_amd64\\reflect.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a"
+	},
+	"Standard": {
+		"reflect": true,
+		"sort": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b026\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\fmtsort
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b026\\vet.cfg"
+cat >$WORK\b034\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/oserror",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\oserror",
+	"ImportPath": "internal/oserror",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\oserror\\errors.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a"
+	},
+	"Standard": {
+		"errors": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b034\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\oserror
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b034\\vet.cfg"
+cat >$WORK\b037\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/syscall/windows/sysdll",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\syscall\\windows\\sysdll",
+	"ImportPath": "internal/syscall/windows/sysdll",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\sysdll\\sysdll.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b037\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\syscall\windows\sysdll
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b037\\vet.cfg"
+cat >$WORK\b039\vet.cfg << 'EOF' # internal
+{
+	"ID": "unicode/utf16",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\unicode\\utf16",
+	"ImportPath": "unicode/utf16",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\unicode\\utf16\\utf16.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {},
+	"PackageFile": {},
+	"Standard": {},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b039\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\unicode\utf16
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b039\\vet.cfg"
+cat >$WORK\b038\vet.cfg << 'EOF' # internal
+{
+	"ID": "syscall",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\syscall",
+	"ImportPath": "syscall",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\syscall\\asan0.go",
+		"D:\\GoRoot\\src\\syscall\\dll_windows.go",
+		"D:\\GoRoot\\src\\syscall\\endian_little.go",
+		"D:\\GoRoot\\src\\syscall\\env_windows.go",
+		"D:\\GoRoot\\src\\syscall\\exec_windows.go",
+		"D:\\GoRoot\\src\\syscall\\msan0.go",
+		"D:\\GoRoot\\src\\syscall\\net.go",
+		"D:\\GoRoot\\src\\syscall\\security_windows.go",
+		"D:\\GoRoot\\src\\syscall\\syscall.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_windows.go",
+		"D:\\GoRoot\\src\\syscall\\time_nofake.go",
+		"D:\\GoRoot\\src\\syscall\\types_windows.go",
+		"D:\\GoRoot\\src\\syscall\\types_windows_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_windows.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\syscall\\asan.go",
+		"D:\\GoRoot\\src\\syscall\\bpf_bsd.go",
+		"D:\\GoRoot\\src\\syscall\\bpf_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\const_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\creds_test.go",
+		"D:\\GoRoot\\src\\syscall\\dir_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\dirent.go",
+		"D:\\GoRoot\\src\\syscall\\dirent_test.go",
+		"D:\\GoRoot\\src\\syscall\\endian_big.go",
+		"D:\\GoRoot\\src\\syscall\\env_unix.go",
+		"D:\\GoRoot\\src\\syscall\\errors_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\exec_aix_test.go",
+		"D:\\GoRoot\\src\\syscall\\exec_bsd.go",
+		"D:\\GoRoot\\src\\syscall\\exec_freebsd.go",
+		"D:\\GoRoot\\src\\syscall\\exec_libc.go",
+		"D:\\GoRoot\\src\\syscall\\exec_libc2.go",
+		"D:\\GoRoot\\src\\syscall\\exec_linux.go",
+		"D:\\GoRoot\\src\\syscall\\exec_linux_test.go",
+		"D:\\GoRoot\\src\\syscall\\exec_pdeathsig_test.go",
+		"D:\\GoRoot\\src\\syscall\\exec_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\exec_solaris_test.go",
+		"D:\\GoRoot\\src\\syscall\\exec_unix.go",
+		"D:\\GoRoot\\src\\syscall\\exec_unix_test.go",
+		"D:\\GoRoot\\src\\syscall\\export_darwin_test.go",
+		"D:\\GoRoot\\src\\syscall\\export_freebsd_test.go",
+		"D:\\GoRoot\\src\\syscall\\export_linux_test.go",
+		"D:\\GoRoot\\src\\syscall\\export_unix_test.go",
+		"D:\\GoRoot\\src\\syscall\\flock.go",
+		"D:\\GoRoot\\src\\syscall\\flock_aix.go",
+		"D:\\GoRoot\\src\\syscall\\flock_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\flock_linux_32bit.go",
+		"D:\\GoRoot\\src\\syscall\\forkpipe.go",
+		"D:\\GoRoot\\src\\syscall\\forkpipe2.go",
+		"D:\\GoRoot\\src\\syscall\\fs_js.go",
+		"D:\\GoRoot\\src\\syscall\\getdirentries_test.go",
+		"D:\\GoRoot\\src\\syscall\\lsf_linux.go",
+		"D:\\GoRoot\\src\\syscall\\mkasm.go",
+		"D:\\GoRoot\\src\\syscall\\mkpost.go",
+		"D:\\GoRoot\\src\\syscall\\mksyscall_windows.go",
+		"D:\\GoRoot\\src\\syscall\\mmap_unix_test.go",
+		"D:\\GoRoot\\src\\syscall\\msan.go",
+		"D:\\GoRoot\\src\\syscall\\net_js.go",
+		"D:\\GoRoot\\src\\syscall\\netlink_linux.go",
+		"D:\\GoRoot\\src\\syscall\\ptrace_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\ptrace_ios.go",
+		"D:\\GoRoot\\src\\syscall\\pwd_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\route_bsd.go",
+		"D:\\GoRoot\\src\\syscall\\route_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\route_dragonfly.go",
+		"D:\\GoRoot\\src\\syscall\\route_freebsd.go",
+		"D:\\GoRoot\\src\\syscall\\route_freebsd_32bit.go",
+		"D:\\GoRoot\\src\\syscall\\route_freebsd_64bit.go",
+		"D:\\GoRoot\\src\\syscall\\route_netbsd.go",
+		"D:\\GoRoot\\src\\syscall\\route_openbsd.go",
+		"D:\\GoRoot\\src\\syscall\\setuidgid_32_linux.go",
+		"D:\\GoRoot\\src\\syscall\\setuidgid_linux.go",
+		"D:\\GoRoot\\src\\syscall\\sock_cloexec_linux.go",
+		"D:\\GoRoot\\src\\syscall\\sockcmsg_dragonfly.go",
+		"D:\\GoRoot\\src\\syscall\\sockcmsg_linux.go",
+		"D:\\GoRoot\\src\\syscall\\sockcmsg_unix.go",
+		"D:\\GoRoot\\src\\syscall\\sockcmsg_unix_other.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_aix.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_aix_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_bsd.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_bsd_test.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_darwin_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_darwin_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_dragonfly.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_freebsd_test.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_illumos.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_js.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_386.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_arm.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_mips64x.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_mipsx.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_ppc64x.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_riscv64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_s390x.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_linux_test.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_netbsd.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_netbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_netbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd1.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_libc.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_plan9_test.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_ptrace_test.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_solaris.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_solaris_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_unix.go",
+		"D:\\GoRoot\\src\\syscall\\syscall_unix_test.go",
+		"D:\\GoRoot\\src\\syscall\\tables_js.go",
+		"D:\\GoRoot\\src\\syscall\\time_fake.go",
+		"D:\\GoRoot\\src\\syscall\\timestruct.go",
+		"D:\\GoRoot\\src\\syscall\\types_aix.go",
+		"D:\\GoRoot\\src\\syscall\\types_darwin.go",
+		"D:\\GoRoot\\src\\syscall\\types_dragonfly.go",
+		"D:\\GoRoot\\src\\syscall\\types_freebsd.go",
+		"D:\\GoRoot\\src\\syscall\\types_illumos_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\types_linux.go",
+		"D:\\GoRoot\\src\\syscall\\types_netbsd.go",
+		"D:\\GoRoot\\src\\syscall\\types_openbsd.go",
+		"D:\\GoRoot\\src\\syscall\\types_solaris.go",
+		"D:\\GoRoot\\src\\syscall\\types_windows_386.go",
+		"D:\\GoRoot\\src\\syscall\\types_windows_arm.go",
+		"D:\\GoRoot\\src\\syscall\\types_windows_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_aix_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_darwin_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_darwin_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_freebsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_freebsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_386.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_mips.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_mips64le.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_mipsle.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_ppc64le.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_riscv64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_linux_s390x.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_netbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_netbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_openbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_openbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zerrors_solaris_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_aix_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_darwin_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_darwin_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_freebsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_freebsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_mips.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_mips64le.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_mipsle.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_ppc64le.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_riscv64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_linux_s390x.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_netbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_netbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_plan9_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_plan9_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_plan9_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_solaris_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysctl_openbsd.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_darwin_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_darwin_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_freebsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_freebsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_mips.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_mips64le.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_mipsle.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_ppc64le.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_riscv64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_linux_s390x.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_netbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_netbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_openbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_openbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_plan9.go",
+		"D:\\GoRoot\\src\\syscall\\zsysnum_solaris_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_aix_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_darwin_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_darwin_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_dragonfly_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_freebsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_freebsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_freebsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_freebsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_386.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_arm.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_mips.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_mips64le.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_mipsle.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_ppc64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_ppc64le.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_riscv64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_linux_s390x.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_netbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_netbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_netbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_netbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_openbsd_386.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_openbsd_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_openbsd_arm.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_openbsd_arm64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_openbsd_mips64.go",
+		"D:\\GoRoot\\src\\syscall\\ztypes_solaris_amd64.go",
+		"D:\\GoRoot\\src\\syscall\\asm9_unix2_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_aix_ppc64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_darwin_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_darwin_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_freebsd_arm.s",
+		"D:\\GoRoot\\src\\syscall\\asm_freebsd_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_386.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_arm.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_mips64x.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_mipsx.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_ppc64x.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_riscv64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_linux_s390x.s",
+		"D:\\GoRoot\\src\\syscall\\asm_netbsd_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_netbsd_arm.s",
+		"D:\\GoRoot\\src\\syscall\\asm_netbsd_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_openbsd_386.s",
+		"D:\\GoRoot\\src\\syscall\\asm_openbsd_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_openbsd_arm.s",
+		"D:\\GoRoot\\src\\syscall\\asm_openbsd_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_openbsd_mips64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_plan9_386.s",
+		"D:\\GoRoot\\src\\syscall\\asm_plan9_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_plan9_arm.s",
+		"D:\\GoRoot\\src\\syscall\\asm_solaris_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\asm_unix_386.s",
+		"D:\\GoRoot\\src\\syscall\\asm_unix_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_darwin_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_darwin_arm64.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_386.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_amd64.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_arm.s",
+		"D:\\GoRoot\\src\\syscall\\zsyscall_openbsd_arm64.s"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/itoa": "internal/itoa",
+		"internal/oserror": "internal/oserror",
+		"internal/race": "internal/race",
+		"internal/syscall/windows/sysdll": "internal/syscall/windows/sysdll",
+		"internal/unsafeheader": "internal/unsafeheader",
+		"runtime": "runtime",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"unicode/utf16": "unicode/utf16",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/itoa": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\itoa.a",
+		"internal/oserror": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\oserror.a",
+		"internal/race": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\race.a",
+		"internal/syscall/windows/sysdll": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows\\sysdll.a",
+		"internal/unsafeheader": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\unsafeheader.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/itoa": true,
+		"internal/oserror": true,
+		"internal/race": true,
+		"internal/syscall/windows/sysdll": true,
+		"internal/unsafeheader": true,
+		"runtime": true,
+		"sync": true,
+		"sync/atomic": true,
+		"unicode/utf16": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b038\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\syscall
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b038\\vet.cfg"
+cat >$WORK\b036\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/syscall/windows",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\syscall\\windows",
+	"ImportPath": "internal/syscall/windows",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\net_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\psapi_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\reparse_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\security_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\symlink_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\syscall_windows.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\zsyscall_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\mksyscall.go"
+	],
+	"ImportMap": {
+		"internal/syscall/windows/sysdll": "internal/syscall/windows/sysdll",
+		"internal/unsafeheader": "internal/unsafeheader",
+		"sync": "sync",
+		"syscall": "syscall",
+		"unicode/utf16": "unicode/utf16",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/syscall/windows/sysdll": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows\\sysdll.a",
+		"internal/unsafeheader": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\unsafeheader.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a"
+	},
+	"Standard": {
+		"internal/syscall/windows/sysdll": true,
+		"internal/unsafeheader": true,
+		"sync": true,
+		"syscall": true,
+		"unicode/utf16": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b036\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\syscall\windows
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b036\\vet.cfg"
+cat >$WORK\b041\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/syscall/windows/registry",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\syscall\\windows\\registry",
+	"ImportPath": "internal/syscall/windows/registry",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\registry\\key.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\registry\\syscall.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\registry\\value.go",
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\registry\\zsyscall_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\windows\\registry\\mksyscall.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/syscall/windows/sysdll": "internal/syscall/windows/sysdll",
+		"runtime": "runtime",
+		"syscall": "syscall",
+		"unicode/utf16": "unicode/utf16",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/syscall/windows/sysdll": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows\\sysdll.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/syscall/windows/sysdll": true,
+		"runtime": true,
+		"syscall": true,
+		"unicode/utf16": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b041\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\syscall\windows\registry
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b041\\vet.cfg"
+cat >$WORK\b040\vet.cfg << 'EOF' # internal
+{
+	"ID": "time",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\time",
+	"ImportPath": "time",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\time\\format.go",
+		"D:\\GoRoot\\src\\time\\sleep.go",
+		"D:\\GoRoot\\src\\time\\sys_windows.go",
+		"D:\\GoRoot\\src\\time\\tick.go",
+		"D:\\GoRoot\\src\\time\\time.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_abbrs_windows.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_read.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\time\\embed.go",
+		"D:\\GoRoot\\src\\time\\export_android_test.go",
+		"D:\\GoRoot\\src\\time\\genzabbrs.go",
+		"D:\\GoRoot\\src\\time\\sys_plan9.go",
+		"D:\\GoRoot\\src\\time\\sys_unix.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_android.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_android_test.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_ios.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_js.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_plan9.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_unix.go",
+		"D:\\GoRoot\\src\\time\\zoneinfo_unix_test.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/syscall/windows/registry": "internal/syscall/windows/registry",
+		"runtime": "runtime",
+		"sync": "sync",
+		"syscall": "syscall",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/syscall/windows/registry": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows\\registry.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/syscall/windows/registry": true,
+		"runtime": true,
+		"sync": true,
+		"syscall": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b040\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\time
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b040\\vet.cfg"
+cat >$WORK\b035\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/poll",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\poll",
+	"ImportPath": "internal/poll",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\poll\\errno_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_fsync_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_mutex.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_poll_runtime.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_posix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\hook_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sendfile_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sockopt.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sockopt_windows.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sockoptip.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\poll\\copy_file_range_linux.go",
+		"D:\\GoRoot\\src\\internal\\poll\\errno_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\error_linux_test.go",
+		"D:\\GoRoot\\src\\internal\\poll\\export_linux_test.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fcntl_js.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fcntl_libc.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fcntl_syscall.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_fsync_darwin.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_fsync_posix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_io_plan9.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_opendir_darwin.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_plan9.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_poll_js.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_writev_darwin.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_writev_illumos.go",
+		"D:\\GoRoot\\src\\internal\\poll\\fd_writev_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\hook_cloexec.go",
+		"D:\\GoRoot\\src\\internal\\poll\\hook_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\iovec_illumos.go",
+		"D:\\GoRoot\\src\\internal\\poll\\iovec_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sendfile_bsd.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sendfile_linux.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sendfile_solaris.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sock_cloexec.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sockopt_linux.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sockopt_unix.go",
+		"D:\\GoRoot\\src\\internal\\poll\\splice_linux.go",
+		"D:\\GoRoot\\src\\internal\\poll\\splice_linux_test.go",
+		"D:\\GoRoot\\src\\internal\\poll\\strconv.go",
+		"D:\\GoRoot\\src\\internal\\poll\\sys_cloexec.go",
+		"D:\\GoRoot\\src\\internal\\poll\\writev.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/race": "internal/race",
+		"internal/syscall/windows": "internal/syscall/windows",
+		"io": "io",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"syscall": "syscall",
+		"time": "time",
+		"unicode/utf16": "unicode/utf16",
+		"unicode/utf8": "unicode/utf8",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/race": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\race.a",
+		"internal/syscall/windows": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/race": true,
+		"internal/syscall/windows": true,
+		"io": true,
+		"sync": true,
+		"sync/atomic": true,
+		"syscall": true,
+		"time": true,
+		"unicode/utf16": true,
+		"unicode/utf8": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b035\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\poll
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b035\\vet.cfg"
+cat >$WORK\b042\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/syscall/execenv",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\syscall\\execenv",
+	"ImportPath": "internal/syscall/execenv",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\execenv\\execenv_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\internal\\syscall\\execenv\\execenv_default.go"
+	],
+	"ImportMap": {
+		"internal/syscall/windows": "internal/syscall/windows",
+		"syscall": "syscall",
+		"unicode/utf16": "unicode/utf16",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"internal/syscall/windows": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a"
+	},
+	"Standard": {
+		"internal/syscall/windows": true,
+		"syscall": true,
+		"unicode/utf16": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b042\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\syscall\execenv
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b042\\vet.cfg"
+cat >$WORK\b043\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/testlog",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\testlog",
+	"ImportPath": "internal/testlog",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\testlog\\exit.go",
+		"D:\\GoRoot\\src\\internal\\testlog\\log.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"sync": "sync",
+		"sync/atomic": "sync/atomic"
+	},
+	"PackageFile": {
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a"
+	},
+	"Standard": {
+		"sync": true,
+		"sync/atomic": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b043\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\testlog
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b043\\vet.cfg"
+cat >$WORK\b045\vet.cfg << 'EOF' # internal
+{
+	"ID": "path",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\path",
+	"ImportPath": "path",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\path\\match.go",
+		"D:\\GoRoot\\src\\path\\path.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/bytealg": "internal/bytealg",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/bytealg": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b045\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\path
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b045\\vet.cfg"
+cat >$WORK\b044\vet.cfg << 'EOF' # internal
+{
+	"ID": "io/fs",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\io\\fs",
+	"ImportPath": "io/fs",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\io\\fs\\fs.go",
+		"D:\\GoRoot\\src\\io\\fs\\glob.go",
+		"D:\\GoRoot\\src\\io\\fs\\readdir.go",
+		"D:\\GoRoot\\src\\io\\fs\\readfile.go",
+		"D:\\GoRoot\\src\\io\\fs\\stat.go",
+		"D:\\GoRoot\\src\\io\\fs\\sub.go",
+		"D:\\GoRoot\\src\\io\\fs\\walk.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/oserror": "internal/oserror",
+		"io": "io",
+		"path": "path",
+		"sort": "sort",
+		"time": "time",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/oserror": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\oserror.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"path": "D:\\GoRoot\\pkg\\windows_amd64\\path.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/oserror": true,
+		"io": true,
+		"path": true,
+		"sort": true,
+		"time": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b044\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\io\fs
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b044\\vet.cfg"
+cat >$WORK\b033\vet.cfg << 'EOF' # internal
+{
+	"ID": "os",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\os",
+	"ImportPath": "os",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\os\\dir.go",
+		"D:\\GoRoot\\src\\os\\dir_windows.go",
+		"D:\\GoRoot\\src\\os\\endian_little.go",
+		"D:\\GoRoot\\src\\os\\env.go",
+		"D:\\GoRoot\\src\\os\\error.go",
+		"D:\\GoRoot\\src\\os\\error_errno.go",
+		"D:\\GoRoot\\src\\os\\error_posix.go",
+		"D:\\GoRoot\\src\\os\\exec.go",
+		"D:\\GoRoot\\src\\os\\exec_posix.go",
+		"D:\\GoRoot\\src\\os\\exec_windows.go",
+		"D:\\GoRoot\\src\\os\\executable.go",
+		"D:\\GoRoot\\src\\os\\executable_windows.go",
+		"D:\\GoRoot\\src\\os\\file.go",
+		"D:\\GoRoot\\src\\os\\file_posix.go",
+		"D:\\GoRoot\\src\\os\\file_windows.go",
+		"D:\\GoRoot\\src\\os\\getwd.go",
+		"D:\\GoRoot\\src\\os\\path.go",
+		"D:\\GoRoot\\src\\os\\path_windows.go",
+		"D:\\GoRoot\\src\\os\\proc.go",
+		"D:\\GoRoot\\src\\os\\rawconn.go",
+		"D:\\GoRoot\\src\\os\\readfrom_stub.go",
+		"D:\\GoRoot\\src\\os\\removeall_noat.go",
+		"D:\\GoRoot\\src\\os\\stat.go",
+		"D:\\GoRoot\\src\\os\\stat_windows.go",
+		"D:\\GoRoot\\src\\os\\sticky_notbsd.go",
+		"D:\\GoRoot\\src\\os\\str.go",
+		"D:\\GoRoot\\src\\os\\sys.go",
+		"D:\\GoRoot\\src\\os\\sys_windows.go",
+		"D:\\GoRoot\\src\\os\\tempfile.go",
+		"D:\\GoRoot\\src\\os\\types.go",
+		"D:\\GoRoot\\src\\os\\types_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\os\\dir_darwin.go",
+		"D:\\GoRoot\\src\\os\\dir_plan9.go",
+		"D:\\GoRoot\\src\\os\\dir_unix.go",
+		"D:\\GoRoot\\src\\os\\dirent_aix.go",
+		"D:\\GoRoot\\src\\os\\dirent_dragonfly.go",
+		"D:\\GoRoot\\src\\os\\dirent_freebsd.go",
+		"D:\\GoRoot\\src\\os\\dirent_js.go",
+		"D:\\GoRoot\\src\\os\\dirent_linux.go",
+		"D:\\GoRoot\\src\\os\\dirent_netbsd.go",
+		"D:\\GoRoot\\src\\os\\dirent_openbsd.go",
+		"D:\\GoRoot\\src\\os\\dirent_solaris.go",
+		"D:\\GoRoot\\src\\os\\endian_big.go",
+		"D:\\GoRoot\\src\\os\\env_unix_test.go",
+		"D:\\GoRoot\\src\\os\\error_plan9.go",
+		"D:\\GoRoot\\src\\os\\error_unix_test.go",
+		"D:\\GoRoot\\src\\os\\exec_plan9.go",
+		"D:\\GoRoot\\src\\os\\exec_unix.go",
+		"D:\\GoRoot\\src\\os\\exec_unix_test.go",
+		"D:\\GoRoot\\src\\os\\executable_darwin.go",
+		"D:\\GoRoot\\src\\os\\executable_dragonfly.go",
+		"D:\\GoRoot\\src\\os\\executable_freebsd.go",
+		"D:\\GoRoot\\src\\os\\executable_path.go",
+		"D:\\GoRoot\\src\\os\\executable_plan9.go",
+		"D:\\GoRoot\\src\\os\\executable_procfs.go",
+		"D:\\GoRoot\\src\\os\\executable_solaris.go",
+		"D:\\GoRoot\\src\\os\\executable_sysctl.go",
+		"D:\\GoRoot\\src\\os\\export_linux_test.go",
+		"D:\\GoRoot\\src\\os\\export_unix_test.go",
+		"D:\\GoRoot\\src\\os\\fifo_test.go",
+		"D:\\GoRoot\\src\\os\\file_plan9.go",
+		"D:\\GoRoot\\src\\os\\file_unix.go",
+		"D:\\GoRoot\\src\\os\\os_unix_test.go",
+		"D:\\GoRoot\\src\\os\\path_plan9.go",
+		"D:\\GoRoot\\src\\os\\path_unix.go",
+		"D:\\GoRoot\\src\\os\\pipe2_bsd.go",
+		"D:\\GoRoot\\src\\os\\pipe2_illumos.go",
+		"D:\\GoRoot\\src\\os\\pipe_bsd.go",
+		"D:\\GoRoot\\src\\os\\pipe_linux.go",
+		"D:\\GoRoot\\src\\os\\readfrom_linux.go",
+		"D:\\GoRoot\\src\\os\\readfrom_linux_test.go",
+		"D:\\GoRoot\\src\\os\\removeall_at.go",
+		"D:\\GoRoot\\src\\os\\stat_aix.go",
+		"D:\\GoRoot\\src\\os\\stat_darwin.go",
+		"D:\\GoRoot\\src\\os\\stat_dragonfly.go",
+		"D:\\GoRoot\\src\\os\\stat_freebsd.go",
+		"D:\\GoRoot\\src\\os\\stat_js.go",
+		"D:\\GoRoot\\src\\os\\stat_linux.go",
+		"D:\\GoRoot\\src\\os\\stat_netbsd.go",
+		"D:\\GoRoot\\src\\os\\stat_openbsd.go",
+		"D:\\GoRoot\\src\\os\\stat_plan9.go",
+		"D:\\GoRoot\\src\\os\\stat_solaris.go",
+		"D:\\GoRoot\\src\\os\\stat_unix.go",
+		"D:\\GoRoot\\src\\os\\sticky_bsd.go",
+		"D:\\GoRoot\\src\\os\\sys_aix.go",
+		"D:\\GoRoot\\src\\os\\sys_bsd.go",
+		"D:\\GoRoot\\src\\os\\sys_js.go",
+		"D:\\GoRoot\\src\\os\\sys_linux.go",
+		"D:\\GoRoot\\src\\os\\sys_plan9.go",
+		"D:\\GoRoot\\src\\os\\sys_solaris.go",
+		"D:\\GoRoot\\src\\os\\sys_unix.go",
+		"D:\\GoRoot\\src\\os\\timeout_test.go",
+		"D:\\GoRoot\\src\\os\\types_plan9.go",
+		"D:\\GoRoot\\src\\os\\types_unix.go",
+		"D:\\GoRoot\\src\\os\\wait_unimp.go",
+		"D:\\GoRoot\\src\\os\\wait_wait6.go",
+		"D:\\GoRoot\\src\\os\\wait_waitid.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/itoa": "internal/itoa",
+		"internal/oserror": "internal/oserror",
+		"internal/poll": "internal/poll",
+		"internal/syscall/execenv": "internal/syscall/execenv",
+		"internal/syscall/windows": "internal/syscall/windows",
+		"internal/testlog": "internal/testlog",
+		"internal/unsafeheader": "internal/unsafeheader",
+		"io": "io",
+		"io/fs": "io/fs",
+		"runtime": "runtime",
+		"sort": "sort",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"syscall": "syscall",
+		"time": "time",
+		"unicode/utf16": "unicode/utf16",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/itoa": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\itoa.a",
+		"internal/oserror": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\oserror.a",
+		"internal/poll": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\poll.a",
+		"internal/syscall/execenv": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\execenv.a",
+		"internal/syscall/windows": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\syscall\\windows.a",
+		"internal/testlog": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\testlog.a",
+		"internal/unsafeheader": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\unsafeheader.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"io/fs": "D:\\GoRoot\\pkg\\windows_amd64\\io\\fs.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a",
+		"unicode/utf16": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf16.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/itoa": true,
+		"internal/oserror": true,
+		"internal/poll": true,
+		"internal/syscall/execenv": true,
+		"internal/syscall/windows": true,
+		"internal/testlog": true,
+		"internal/unsafeheader": true,
+		"io": true,
+		"io/fs": true,
+		"runtime": true,
+		"sort": true,
+		"sync": true,
+		"sync/atomic": true,
+		"syscall": true,
+		"time": true,
+		"unicode/utf16": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b033\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\os
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b033\\vet.cfg"
+cat >$WORK\b025\vet.cfg << 'EOF' # internal
+{
+	"ID": "fmt",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\fmt",
+	"ImportPath": "fmt",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\fmt\\doc.go",
+		"D:\\GoRoot\\src\\fmt\\errors.go",
+		"D:\\GoRoot\\src\\fmt\\format.go",
+		"D:\\GoRoot\\src\\fmt\\print.go",
+		"D:\\GoRoot\\src\\fmt\\scan.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/fmtsort": "internal/fmtsort",
+		"io": "io",
+		"math": "math",
+		"os": "os",
+		"reflect": "reflect",
+		"strconv": "strconv",
+		"sync": "sync",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/fmtsort": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\fmtsort.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"math": "D:\\GoRoot\\pkg\\windows_amd64\\math.a",
+		"os": "D:\\GoRoot\\pkg\\windows_amd64\\os.a",
+		"reflect": "D:\\GoRoot\\pkg\\windows_amd64\\reflect.a",
+		"strconv": "D:\\GoRoot\\pkg\\windows_amd64\\strconv.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/fmtsort": true,
+		"io": true,
+		"math": true,
+		"os": true,
+		"reflect": true,
+		"strconv": true,
+		"sync": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b025\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\fmt
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b025\\vet.cfg"
+cat >$WORK\b046\vet.cfg << 'EOF' # internal
+{
+	"ID": "strings",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\strings",
+	"ImportPath": "strings",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\strings\\builder.go",
+		"D:\\GoRoot\\src\\strings\\clone.go",
+		"D:\\GoRoot\\src\\strings\\compare.go",
+		"D:\\GoRoot\\src\\strings\\reader.go",
+		"D:\\GoRoot\\src\\strings\\replace.go",
+		"D:\\GoRoot\\src\\strings\\search.go",
+		"D:\\GoRoot\\src\\strings\\strings.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/bytealg": "internal/bytealg",
+		"io": "io",
+		"sync": "sync",
+		"unicode": "unicode",
+		"unicode/utf8": "unicode/utf8",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/bytealg": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\bytealg.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"unicode": "D:\\GoRoot\\pkg\\windows_amd64\\unicode.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/bytealg": true,
+		"io": true,
+		"sync": true,
+		"unicode": true,
+		"unicode/utf8": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b046\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\strings
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b046\\vet.cfg"
+cat >$WORK\b024\vet.cfg << 'EOF' # internal
+{
+	"ID": "flag",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\flag",
+	"ImportPath": "flag",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\flag\\flag.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"fmt": "fmt",
+		"io": "io",
+		"os": "os",
+		"reflect": "reflect",
+		"sort": "sort",
+		"strconv": "strconv",
+		"strings": "strings",
+		"time": "time"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"os": "D:\\GoRoot\\pkg\\windows_amd64\\os.a",
+		"reflect": "D:\\GoRoot\\pkg\\windows_amd64\\reflect.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"strconv": "D:\\GoRoot\\pkg\\windows_amd64\\strconv.a",
+		"strings": "D:\\GoRoot\\pkg\\windows_amd64\\strings.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a"
+	},
+	"Standard": {
+		"errors": true,
+		"fmt": true,
+		"io": true,
+		"os": true,
+		"reflect": true,
+		"sort": true,
+		"strconv": true,
+		"strings": true,
+		"time": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b024\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\flag
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b024\\vet.cfg"
+cat >$WORK\b047\vet.cfg << 'EOF' # internal
+{
+	"ID": "internal/sysinfo",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\internal\\sysinfo",
+	"ImportPath": "internal/sysinfo",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\internal\\sysinfo\\sysinfo.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"internal/cpu": "internal/cpu",
+		"sync": "sync"
+	},
+	"PackageFile": {
+		"internal/cpu": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\cpu.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a"
+	},
+	"Standard": {
+		"internal/cpu": true,
+		"sync": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b047\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\internal\sysinfo
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b047\\vet.cfg"
+cat >$WORK\b048\vet.cfg << 'EOF' # internal
+{
+	"ID": "math/rand",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\math\\rand",
+	"ImportPath": "math/rand",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\math\\rand\\exp.go",
+		"D:\\GoRoot\\src\\math\\rand\\normal.go",
+		"D:\\GoRoot\\src\\math\\rand\\rand.go",
+		"D:\\GoRoot\\src\\math\\rand\\rng.go",
+		"D:\\GoRoot\\src\\math\\rand\\zipf.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\math\\rand\\gen_cooked.go"
+	],
+	"ImportMap": {
+		"math": "math",
+		"sync": "sync"
+	},
+	"PackageFile": {
+		"math": "D:\\GoRoot\\pkg\\windows_amd64\\math.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a"
+	},
+	"Standard": {
+		"math": true,
+		"sync": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b048\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\math\rand
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b048\\vet.cfg"
+cat >$WORK\b049\vet.cfg << 'EOF' # internal
+{
+	"ID": "path/filepath",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\path\\filepath",
+	"ImportPath": "path/filepath",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\path\\filepath\\match.go",
+		"D:\\GoRoot\\src\\path\\filepath\\path.go",
+		"D:\\GoRoot\\src\\path\\filepath\\path_windows.go",
+		"D:\\GoRoot\\src\\path\\filepath\\symlink.go",
+		"D:\\GoRoot\\src\\path\\filepath\\symlink_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\path\\filepath\\example_unix_test.go",
+		"D:\\GoRoot\\src\\path\\filepath\\example_unix_walk_test.go",
+		"D:\\GoRoot\\src\\path\\filepath\\path_plan9.go",
+		"D:\\GoRoot\\src\\path\\filepath\\path_unix.go",
+		"D:\\GoRoot\\src\\path\\filepath\\symlink_unix.go"
+	],
+	"ImportMap": {
+		"errors": "errors",
+		"io/fs": "io/fs",
+		"os": "os",
+		"runtime": "runtime",
+		"sort": "sort",
+		"strings": "strings",
+		"syscall": "syscall",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"io/fs": "D:\\GoRoot\\pkg\\windows_amd64\\io\\fs.a",
+		"os": "D:\\GoRoot\\pkg\\windows_amd64\\os.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"strings": "D:\\GoRoot\\pkg\\windows_amd64\\strings.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"errors": true,
+		"io/fs": true,
+		"os": true,
+		"runtime": true,
+		"sort": true,
+		"strings": true,
+		"syscall": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b049\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\path\filepath
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b049\\vet.cfg"
+cat >$WORK\b050\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime/debug",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime\\debug",
+	"ImportPath": "runtime/debug",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\debug\\garbage.go",
+		"D:\\GoRoot\\src\\runtime\\debug\\mod.go",
+		"D:\\GoRoot\\src\\runtime\\debug\\stack.go",
+		"D:\\GoRoot\\src\\runtime\\debug\\stubs.go"
+	],
+	"NonGoFiles": [
+		"D:\\GoRoot\\src\\runtime\\debug\\debug.s"
+	],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\runtime\\debug\\panic_test.go"
+	],
+	"ImportMap": {
+		"fmt": "fmt",
+		"os": "os",
+		"runtime": "runtime",
+		"sort": "sort",
+		"strconv": "strconv",
+		"strings": "strings",
+		"time": "time"
+	},
+	"PackageFile": {
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"os": "D:\\GoRoot\\pkg\\windows_amd64\\os.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"strconv": "D:\\GoRoot\\pkg\\windows_amd64\\strconv.a",
+		"strings": "D:\\GoRoot\\pkg\\windows_amd64\\strings.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a"
+	},
+	"Standard": {
+		"fmt": true,
+		"os": true,
+		"runtime": true,
+		"sort": true,
+		"strconv": true,
+		"strings": true,
+		"time": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b050\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime\debug
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b050\\vet.cfg"
+cat >$WORK\b052\vet.cfg << 'EOF' # internal
+{
+	"ID": "context",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\context",
+	"ImportPath": "context",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\context\\context.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"errors": "errors",
+		"internal/reflectlite": "internal/reflectlite",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"time": "time"
+	},
+	"PackageFile": {
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"internal/reflectlite": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\reflectlite.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a"
+	},
+	"Standard": {
+		"errors": true,
+		"internal/reflectlite": true,
+		"sync": true,
+		"sync/atomic": true,
+		"time": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b052\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\context
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b052\\vet.cfg"
+cat >$WORK\b051\vet.cfg << 'EOF' # internal
+{
+	"ID": "runtime/trace",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\runtime\\trace",
+	"ImportPath": "runtime/trace",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\runtime\\trace\\annotation.go",
+		"D:\\GoRoot\\src\\runtime\\trace\\trace.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"context": "context",
+		"fmt": "fmt",
+		"io": "io",
+		"runtime": "runtime",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"unsafe": "unsafe"
+	},
+	"PackageFile": {
+		"context": "D:\\GoRoot\\pkg\\windows_amd64\\context.a",
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a"
+	},
+	"Standard": {
+		"context": true,
+		"fmt": true,
+		"io": true,
+		"runtime": true,
+		"sync": true,
+		"sync/atomic": true,
+		"unsafe": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b051\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\runtime\trace
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b051\\vet.cfg"
+cat >$WORK\b002\vet.cfg << 'EOF' # internal
+{
+	"ID": "testing",
+	"Compiler": "gc",
+	"Dir": "D:\\GoRoot\\src\\testing",
+	"ImportPath": "testing",
+	"GoFiles": [
+		"D:\\GoRoot\\src\\testing\\allocs.go",
+		"D:\\GoRoot\\src\\testing\\benchmark.go",
+		"D:\\GoRoot\\src\\testing\\cover.go",
+		"D:\\GoRoot\\src\\testing\\example.go",
+		"D:\\GoRoot\\src\\testing\\fuzz.go",
+		"D:\\GoRoot\\src\\testing\\match.go",
+		"D:\\GoRoot\\src\\testing\\run_example.go",
+		"D:\\GoRoot\\src\\testing\\testing.go",
+		"D:\\GoRoot\\src\\testing\\testing_windows.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [
+		"D:\\GoRoot\\src\\testing\\run_example_js.go",
+		"D:\\GoRoot\\src\\testing\\testing_other.go"
+	],
+	"ImportMap": {
+		"bytes": "bytes",
+		"errors": "errors",
+		"flag": "flag",
+		"fmt": "fmt",
+		"internal/race": "internal/race",
+		"internal/sysinfo": "internal/sysinfo",
+		"io": "io",
+		"math": "math",
+		"math/rand": "math/rand",
+		"os": "os",
+		"path/filepath": "path/filepath",
+		"reflect": "reflect",
+		"runtime": "runtime",
+		"runtime/debug": "runtime/debug",
+		"runtime/trace": "runtime/trace",
+		"sort": "sort",
+		"strconv": "strconv",
+		"strings": "strings",
+		"sync": "sync",
+		"sync/atomic": "sync/atomic",
+		"syscall": "syscall",
+		"time": "time",
+		"unicode": "unicode",
+		"unicode/utf8": "unicode/utf8"
+	},
+	"PackageFile": {
+		"bytes": "D:\\GoRoot\\pkg\\windows_amd64\\bytes.a",
+		"errors": "D:\\GoRoot\\pkg\\windows_amd64\\errors.a",
+		"flag": "D:\\GoRoot\\pkg\\windows_amd64\\flag.a",
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"internal/race": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\race.a",
+		"internal/sysinfo": "D:\\GoRoot\\pkg\\windows_amd64\\internal\\sysinfo.a",
+		"io": "D:\\GoRoot\\pkg\\windows_amd64\\io.a",
+		"math": "D:\\GoRoot\\pkg\\windows_amd64\\math.a",
+		"math/rand": "D:\\GoRoot\\pkg\\windows_amd64\\math\\rand.a",
+		"os": "D:\\GoRoot\\pkg\\windows_amd64\\os.a",
+		"path/filepath": "D:\\GoRoot\\pkg\\windows_amd64\\path\\filepath.a",
+		"reflect": "D:\\GoRoot\\pkg\\windows_amd64\\reflect.a",
+		"runtime": "D:\\GoRoot\\pkg\\windows_amd64\\runtime.a",
+		"runtime/debug": "D:\\GoRoot\\pkg\\windows_amd64\\runtime\\debug.a",
+		"runtime/trace": "D:\\GoRoot\\pkg\\windows_amd64\\runtime\\trace.a",
+		"sort": "D:\\GoRoot\\pkg\\windows_amd64\\sort.a",
+		"strconv": "D:\\GoRoot\\pkg\\windows_amd64\\strconv.a",
+		"strings": "D:\\GoRoot\\pkg\\windows_amd64\\strings.a",
+		"sync": "D:\\GoRoot\\pkg\\windows_amd64\\sync.a",
+		"sync/atomic": "D:\\GoRoot\\pkg\\windows_amd64\\sync\\atomic.a",
+		"syscall": "D:\\GoRoot\\pkg\\windows_amd64\\syscall.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a",
+		"unicode": "D:\\GoRoot\\pkg\\windows_amd64\\unicode.a",
+		"unicode/utf8": "D:\\GoRoot\\pkg\\windows_amd64\\unicode\\utf8.a"
+	},
+	"Standard": {
+		"bytes": true,
+		"errors": true,
+		"flag": true,
+		"fmt": true,
+		"internal/race": true,
+		"internal/sysinfo": true,
+		"io": true,
+		"math": true,
+		"math/rand": true,
+		"os": true,
+		"path/filepath": true,
+		"reflect": true,
+		"runtime": true,
+		"runtime/debug": true,
+		"runtime/trace": true,
+		"sort": true,
+		"strconv": true,
+		"strings": true,
+		"sync": true,
+		"sync/atomic": true,
+		"syscall": true,
+		"time": true,
+		"unicode": true,
+		"unicode/utf8": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": true,
+	"VetxOutput": "$WORK\\b002\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoRoot\src\testing
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" -unsafeptr=false "$WORK\\b002\\vet.cfg"
+cat >$WORK\b001\vet.cfg << 'EOF' # internal
+{
+	"ID": "sonar_try/code1",
+	"Compiler": "gc",
+	"Dir": "D:\\GoPath\\src\\sonar_try\\code1",
+	"ImportPath": "sonar_try/code1",
+	"GoFiles": [
+		"D:\\GoPath\\src\\sonar_try\\code1\\code1.go",
+		"D:\\GoPath\\src\\sonar_try\\code1\\code1_test.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"fmt": "fmt",
+		"testing": "testing"
+	},
+	"PackageFile": {
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"testing": "D:\\GoRoot\\pkg\\windows_amd64\\testing.a"
+	},
+	"Standard": {
+		"fmt": true,
+		"testing": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": false,
+	"VetxOutput": "$WORK\\b001\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoPath\src\sonar_try\code1
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" "$WORK\\b001\\vet.cfg"

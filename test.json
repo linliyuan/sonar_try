@@ -1,0 +1,18 @@
+{"Time":"2022-05-31T18:17:48.6516655+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt1"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"=== RUN   TestCode1Fmt1\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"Code1Fmt1111\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"--- PASS: TestCode1Fmt1 (0.00s)\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Elapsed":0}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt2"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"=== RUN   TestCode1Fmt2\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"Code1Fmt2222\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"--- PASS: TestCode1Fmt2 (0.00s)\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Elapsed":0}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Hello"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"=== RUN   TestCode1Hello\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"hello word\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"--- PASS: TestCode1Hello (0.00s)\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Hello","Elapsed":0}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Output":"PASS\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"output","Package":"sonar_try/code1","Output":"ok  \tsonar_try/code1\t(cached)\n"}
+{"Time":"2022-05-31T18:17:48.6602726+08:00","Action":"pass","Package":"sonar_try/code1","Elapsed":0.009}
