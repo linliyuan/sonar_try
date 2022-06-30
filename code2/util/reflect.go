@@ -5,6 +5,13 @@ import "reflect"
 // isEmptyValue checks if a value should be considered empty for the purposes
 // of omitting fields with the "omitempty" option.
 func isEmptyValue(v reflect.Value) bool {
+	type zeroAble interface {
+		IsZero() bool
+	}
+	if z, ok := v.Interface().(zeroAble); ok {
+		return z.IsZero()
+	}
+
 	switch v.Kind() {
 	case reflect.Array, reflect.Map, reflect.Slice, reflect.String:
 		return v.Len() == 0
@@ -18,14 +25,6 @@ func isEmptyValue(v reflect.Value) bool {
 		return v.Float() == 0
 	case reflect.Interface, reflect.Ptr:
 		return v.IsNil()
-	}
-
-	type zeroAble interface {
-		IsZero() bool
-	}
-
-	if z, ok := v.Interface().(zeroAble); ok {
-		return z.IsZero()
 	}
 
 	return false

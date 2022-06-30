@@ -3660,3 +3660,52 @@ cat >$WORK\b001\vet.cfg << 'EOF' # internal
 EOF
 cd D:\GoPath\src\sonar_try\code1
 TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" "$WORK\\b001\\vet.cfg"
+
+#
+# sonar_try/code2/util
+#
+
+mkdir -p $WORK\b053\
+cat >$WORK\b053\vet.cfg << 'EOF' # internal
+{
+	"ID": "sonar_try/code2/util",
+	"Compiler": "gc",
+	"Dir": "D:\\GoPath\\src\\sonar_try\\code2\\util",
+	"ImportPath": "sonar_try/code2/util",
+	"GoFiles": [
+		"D:\\GoPath\\src\\sonar_try\\code2\\util\\rand.go",
+		"D:\\GoPath\\src\\sonar_try\\code2\\util\\reflect.go",
+		"D:\\GoPath\\src\\sonar_try\\code2\\util\\rand_test.go",
+		"D:\\GoPath\\src\\sonar_try\\code2\\util\\reflect_test.go"
+	],
+	"NonGoFiles": [],
+	"IgnoredFiles": [],
+	"ImportMap": {
+		"fmt": "fmt",
+		"math/rand": "math/rand",
+		"reflect": "reflect",
+		"testing": "testing",
+		"time": "time"
+	},
+	"PackageFile": {
+		"fmt": "D:\\GoRoot\\pkg\\windows_amd64\\fmt.a",
+		"math/rand": "D:\\GoRoot\\pkg\\windows_amd64\\math\\rand.a",
+		"reflect": "D:\\GoRoot\\pkg\\windows_amd64\\reflect.a",
+		"testing": "D:\\GoRoot\\pkg\\windows_amd64\\testing.a",
+		"time": "D:\\GoRoot\\pkg\\windows_amd64\\time.a"
+	},
+	"Standard": {
+		"fmt": true,
+		"math/rand": true,
+		"reflect": true,
+		"testing": true,
+		"time": true
+	},
+	"PackageVetx": {},
+	"VetxOnly": false,
+	"VetxOutput": "$WORK\\b053\\vet.out",
+	"SucceedOnTypecheckFailure": false
+}
+EOF
+cd D:\GoPath\src\sonar_try\code2\util
+TERM='dumb' "D:\\GoRoot\\pkg\\tool\\windows_amd64\\vet.exe" "$WORK\\b053\\vet.cfg"
