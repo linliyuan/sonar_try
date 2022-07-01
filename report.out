@@ -3673,6 +3673,7 @@ cat >$WORK\b053\vet.cfg << 'EOF' # internal
 	"Dir": "D:\\GoPath\\src\\sonar_try\\code2\\util",
 	"ImportPath": "sonar_try/code2/util",
 	"GoFiles": [
+		"D:\\GoPath\\src\\sonar_try\\code2\\util\\array.go",
 		"D:\\GoPath\\src\\sonar_try\\code2\\util\\rand.go",
 		"D:\\GoPath\\src\\sonar_try\\code2\\util\\reflect.go",
 		"D:\\GoPath\\src\\sonar_try\\code2\\util\\rand_test.go",

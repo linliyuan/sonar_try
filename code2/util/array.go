@@ -13,15 +13,6 @@ func InArrayStr(needle string, haystack []string) bool {
 	return false
 }
 
-func InArrayInt(needle int, haystack []int) bool {
-	for i := 0; i < len(haystack); i++ {
-		if haystack[i] == needle {
-			return true
-		}
-	}
-	return false
-}
-
 func InArray(needle interface{}, haystack interface{}) bool {
 	val := reflect.ValueOf(haystack)
 	switch val.Kind() {
@@ -36,6 +27,15 @@ func InArray(needle interface{}, haystack interface{}) bool {
 			if reflect.DeepEqual(needle, val.MapIndex(k).Interface()) {
 				return true
 			}
+		}
+	}
+	return false
+}
+
+func InArrayInt(needle int, haystack []int) bool {
+	for i := 0; i < len(haystack); i++ {
+		if haystack[i] == needle {
+			return true
 		}
 	}
 	return false

@@ -1,86 +1,86 @@
-{"Time":"2022-06-30T18:30:10.9771088+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt1"}
-{"Time":"2022-06-30T18:30:10.9888544+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"=== RUN   TestCode1Fmt1\n"}
-{"Time":"2022-06-30T18:30:10.9888544+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"Code1Fmt1111\n"}
-{"Time":"2022-06-30T18:30:10.9888544+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"--- PASS: TestCode1Fmt1 (0.00s)\n"}
-{"Time":"2022-06-30T18:30:10.9888544+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Elapsed":0}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt2"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"=== RUN   TestCode1Fmt2\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"Code1Fmt2222\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"--- PASS: TestCode1Fmt2 (0.00s)\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Elapsed":0}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Hello"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"=== RUN   TestCode1Hello\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"hello word\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"--- PASS: TestCode1Hello (0.00s)\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Hello","Elapsed":0}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Output":"PASS\n"}
-{"Time":"2022-06-30T18:30:10.9892798+08:00","Action":"output","Package":"sonar_try/code1","Output":"ok  \tsonar_try/code1\t0.410s\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"=== RUN   TestRandStringBytesMaskImpSrc\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"YKUzOOGNMdjNoroKbZYitrtCEjKadAXexKzuVELZXIAJhDKGGFzTDxeAtfhDGhbRilOrXPEbdfASZvgKgVEScUMoSanVESPsMZOE\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"--- PASS: TestRandStringBytesMaskImpSrc (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Output":"=== RUN   TestIsEmptyValue\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Array_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty"}
-{"Time":"2022-06-30T18:30:11.2292069+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Output":"=== RUN   TestIsEmptyValue/Array_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Bool_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Output":"=== RUN   TestIsEmptyValue/Bool_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Int_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Output":"=== RUN   TestIsEmptyValue/Int_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Output":"=== RUN   TestIsEmptyValue/UInt_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Output":"=== RUN   TestIsEmptyValue/UInt_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Ptr_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Output":"=== RUN   TestIsEmptyValue/Ptr_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Output":"=== RUN   TestIsEmptyValue/TypeZero_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Output":"=== RUN   TestIsEmptyValue/TypeZero_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Float_test_not_empty\n"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty"}
-{"Time":"2022-06-30T18:30:11.2297347+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Output":"=== RUN   TestIsEmptyValue/Float_test_empty\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Output":"--- PASS: TestIsEmptyValue (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Array_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Output":"    --- PASS: TestIsEmptyValue/Array_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Bool_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Output":"    --- PASS: TestIsEmptyValue/Bool_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Int_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Output":"    --- PASS: TestIsEmptyValue/Int_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/UInt_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Output":"    --- PASS: TestIsEmptyValue/UInt_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Ptr_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Output":"    --- PASS: TestIsEmptyValue/Ptr_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/TypeZero_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Output":"    --- PASS: TestIsEmptyValue/TypeZero_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Float_test_not_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Output":"    --- PASS: TestIsEmptyValue/Float_test_empty (0.00s)\n"}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Elapsed":0}
-{"Time":"2022-06-30T18:30:11.2299712+08:00","Action":"output","Package":"sonar_try/code2/util","Output":"PASS\n"}
-{"Time":"2022-06-30T18:30:11.2441708+08:00","Action":"output","Package":"sonar_try/code2/util","Output":"ok  \tsonar_try/code2/util\t0.323s\n"}
-{"Time":"2022-06-30T18:30:11.2730035+08:00","Action":"pass","Package":"sonar_try/code1","Elapsed":0.694}
-{"Time":"2022-06-30T18:30:11.3307805+08:00","Action":"pass","Package":"sonar_try/code2/util","Elapsed":0.409}
+{"Time":"2022-07-01T16:15:40.6384185+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt1"}
+{"Time":"2022-07-01T16:15:40.6384185+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"=== RUN   TestCode1Fmt1\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"=== RUN   TestRandStringBytesMaskImpSrc\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"Code1Fmt1111\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"hJynbFljUUcwyVLPFmXwFunlRNEkPplAqUSnIdQZIFLWeFSuetqOkppwwhtzQjmWoQognYdlKeXlfUjYbdtnTkGcsMhhTXzqKdcW\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Output":"--- PASS: TestCode1Fmt1 (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Output":"--- PASS: TestRandStringBytesMaskImpSrc (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestRandStringBytesMaskImpSrc","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt1","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Fmt2"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Output":"=== RUN   TestIsEmptyValue\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"=== RUN   TestCode1Fmt2\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"Code1Fmt2222\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Array_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Output":"--- PASS: TestCode1Fmt2 (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Fmt2","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Output":"=== RUN   TestIsEmptyValue/Array_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code1","Test":"TestCode1Hello"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"=== RUN   TestCode1Hello\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Bool_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"hello word\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Output":"=== RUN   TestIsEmptyValue/Bool_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Test":"TestCode1Hello","Output":"--- PASS: TestCode1Hello (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"pass","Package":"sonar_try/code1","Test":"TestCode1Hello","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6467483+08:00","Action":"output","Package":"sonar_try/code1","Output":"PASS\n"}
+{"Time":"2022-07-01T16:15:40.6472553+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Int_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472553+08:00","Action":"output","Package":"sonar_try/code1","Output":"ok  \tsonar_try/code1\t(cached)\n"}
+{"Time":"2022-07-01T16:15:40.6472553+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code1","Elapsed":0.009}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Output":"=== RUN   TestIsEmptyValue/Int_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Output":"=== RUN   TestIsEmptyValue/UInt_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Output":"=== RUN   TestIsEmptyValue/UInt_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Ptr_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Output":"=== RUN   TestIsEmptyValue/Ptr_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Output":"=== RUN   TestIsEmptyValue/TypeZero_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Output":"=== RUN   TestIsEmptyValue/TypeZero_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Output":"=== RUN   TestIsEmptyValue/Float_test_not_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"run","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Output":"=== RUN   TestIsEmptyValue/Float_test_empty\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Output":"--- PASS: TestIsEmptyValue (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Array_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Output":"    --- PASS: TestIsEmptyValue/Array_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Array_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Bool_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Output":"    --- PASS: TestIsEmptyValue/Bool_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Bool_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Int_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Output":"    --- PASS: TestIsEmptyValue/Int_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Int_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/UInt_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Output":"    --- PASS: TestIsEmptyValue/UInt_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/UInt_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Ptr_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Output":"    --- PASS: TestIsEmptyValue/Ptr_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Ptr_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/TypeZero_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Output":"    --- PASS: TestIsEmptyValue/TypeZero_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/TypeZero_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Output":"    --- PASS: TestIsEmptyValue/Float_test_not_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_not_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Output":"    --- PASS: TestIsEmptyValue/Float_test_empty (0.00s)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue/Float_test_empty","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Test":"TestIsEmptyValue","Elapsed":0}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Output":"PASS\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"output","Package":"sonar_try/code2/util","Output":"ok  \tsonar_try/code2/util\t(cached)\n"}
+{"Time":"2022-07-01T16:15:40.6472734+08:00","Action":"pass","Package":"sonar_try/code2/util","Elapsed":0.009}
