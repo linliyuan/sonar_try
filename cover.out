@@ -1,0 +1,24 @@
+mode: set
+sonar_try/code1/code1.go:5.27,6.16 1 1
+sonar_try/code1/code1.go:10.2,11.8 2 1
+sonar_try/code1/code1.go:6.16,9.3 2 1
+sonar_try/code1/code1.go:14.29,15.16 1 1
+sonar_try/code1/code1.go:19.2,19.29 1 0
+sonar_try/code1/code1.go:15.16,18.3 2 1
+sonar_try/code2/util/rand.go:17.46,20.66 2 1
+sonar_try/code2/util/rand.go:31.2,31.18 1 1
+sonar_try/code2/util/rand.go:20.66,21.18 1 1
+sonar_try/code2/util/rand.go:24.3,24.64 1 1
+sonar_try/code2/util/rand.go:28.3,29.11 2 1
+sonar_try/code2/util/rand.go:21.18,23.4 1 1
+sonar_try/code2/util/rand.go:24.64,27.4 2 1
+sonar_try/code2/util/reflect.go:7.41,11.43 2 1
+sonar_try/code2/util/reflect.go:15.2,15.18 1 1
+sonar_try/code2/util/reflect.go:30.2,30.14 1 0
+sonar_try/code2/util/reflect.go:11.43,13.3 1 1
+sonar_try/code2/util/reflect.go:16.65,17.22 1 1
+sonar_try/code2/util/reflect.go:18.20,19.19 1 1
+sonar_try/code2/util/reflect.go:20.78,21.22 1 1
+sonar_try/code2/util/reflect.go:22.100,23.23 1 1
+sonar_try/code2/util/reflect.go:24.40,25.24 1 1
+sonar_try/code2/util/reflect.go:26.38,27.19 1 1
