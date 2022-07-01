@@ -21,6 +21,14 @@ func InArrayInt(needle int, haystack []int) bool {
 	}
 	return false
 }
+func InArrayString(needle int, haystack []int) bool {
+	for i := 0; i < len(haystack); i++ {
+		if haystack[i] == needle {
+			return true
+		}
+	}
+	return false
+}
 
 func InArray(needle interface{}, haystack interface{}) bool {
 	val := reflect.ValueOf(haystack)
