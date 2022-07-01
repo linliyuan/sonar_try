@@ -49,3 +49,12 @@ func InArrayUInt(needle uint, haystack []uint) bool {
 	}
 	return false
 }
+
+func InArrayFloat32(needle float32, haystack []float32) bool {
+	for i := 0; i < len(haystack); i++ {
+		if haystack[i] == needle {
+			return true
+		}
+	}
+	return false
+}
