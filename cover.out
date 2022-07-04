@@ -25,6 +25,10 @@ sonar_try/code2/util/array.go:44.53,45.37 1 0
 sonar_try/code2/util/array.go:50.2,50.14 1 0
 sonar_try/code2/util/array.go:45.37,46.28 1 0
 sonar_try/code2/util/array.go:46.28,48.4 1 0
+sonar_try/code2/util/array.go:53.62,54.37 1 1
+sonar_try/code2/util/array.go:59.2,59.14 1 1
+sonar_try/code2/util/array.go:54.37,55.28 1 1
+sonar_try/code2/util/array.go:55.28,57.4 1 1
 sonar_try/code2/util/rand.go:17.46,20.66 2 1
 sonar_try/code2/util/rand.go:31.2,31.18 1 1
 sonar_try/code2/util/rand.go:20.66,21.18 1 1
